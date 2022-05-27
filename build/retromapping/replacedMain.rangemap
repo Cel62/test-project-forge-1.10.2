@@ -1,0 +1,984 @@
+Symbol range map extraction starting
+Processing 21 files
+startProcessing "fr\cel\flashblock\Flashblock.java" md5: ec078c85ab85a06eb62987559fb5c0a5
+@|fr\cel\flashblock\Flashblock.java|8|25|fr.cel.flashblock|package|fr.cel.flashblock|(file)
+Class Start: fr.cel.flashblock.Flashblock
+   @|fr\cel\flashblock\Flashblock.java|436|439|Mod|class|net.minecraftforge.fml.common.Mod
+   @|fr\cel\flashblock\Flashblock.java|440|445|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|448|458|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|459|464|MODID|field|fr.cel.flashblock.utils.References|MODID
+   @|fr\cel\flashblock\Flashblock.java|466|470|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|473|483|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|484|488|NAME|field|fr.cel.flashblock.utils.References|NAME
+   @|fr\cel\flashblock\Flashblock.java|490|497|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|500|510|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|511|518|VERSION|field|fr.cel.flashblock.utils.References|VERSION
+   @|fr\cel\flashblock\Flashblock.java|520|545|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|573|583|Flashblock|class|fr.cel.flashblock.Flashblock
+   @|fr\cel\flashblock\Flashblock.java|605|618|FlashblockTab|class|fr.cel.flashblock.tab.FlashblockTab
+   @|fr\cel\flashblock\Flashblock.java|605|618|FlashblockTab|class|fr.cel.flashblock.tab.FlashblockTab
+   @|fr\cel\flashblock\Flashblock.java|619|622|tab|field|fr.cel.flashblock.Flashblock|tab|
+   @|fr\cel\flashblock\Flashblock.java|735|746|CommonProxy|class|fr.cel.flashblock.proxy.CommonProxy
+   @|fr\cel\flashblock\Flashblock.java|630|640|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|fr\cel\flashblock\Flashblock.java|641|651|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|654|664|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|665|677|CLIENT_PROXY|field|fr.cel.flashblock.utils.References|CLIENT_PROXY
+   @|fr\cel\flashblock\Flashblock.java|679|689|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|fr\cel\flashblock\Flashblock.java|692|702|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|703|715|SERVER_PROXY|field|fr.cel.flashblock.utils.References|SERVER_PROXY
+   @|fr\cel\flashblock\Flashblock.java|735|746|CommonProxy|class|fr.cel.flashblock.proxy.CommonProxy
+   @|fr\cel\flashblock\Flashblock.java|747|752|proxy|field|fr.cel.flashblock.Flashblock|proxy|
+   @|fr\cel\flashblock\Flashblock.java|809|819|Flashblock|class|fr.cel.flashblock.Flashblock
+   @|fr\cel\flashblock\Flashblock.java|760|772|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|fr\cel\flashblock\Flashblock.java|773|783|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\Flashblock.java|784|789|MODID|field|fr.cel.flashblock.utils.References|MODID
+   @|fr\cel\flashblock\Flashblock.java|809|819|Flashblock|class|fr.cel.flashblock.Flashblock
+   @|fr\cel\flashblock\Flashblock.java|820|828|instance|field|fr.cel.flashblock.Flashblock|instance|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fr\cel\flashblock\Flashblock.java|903|904|e|param|fr.cel.flashblock.Flashblock|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|fr\cel\flashblock\Flashblock.java|836|852|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|fr\cel\flashblock\Flashblock.java|869|876|preInit|method|fr.cel.flashblock.Flashblock|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fr\cel\flashblock\Flashblock.java|877|902|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|fr\cel\flashblock\Flashblock.java|916|919|tab|field|fr.cel.flashblock.Flashblock|tab
+      @|fr\cel\flashblock\Flashblock.java|926|939|FlashblockTab|class|fr.cel.flashblock.tab.FlashblockTab
+      @|fr\cel\flashblock\Flashblock.java|940|952|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|fr\cel\flashblock\Flashblock.java|953|962|getNextID|method|net.minecraft.creativetab.CreativeTabs|getNextID|()I
+      @|fr\cel\flashblock\Flashblock.java|989|994|proxy|field|fr.cel.flashblock.Flashblock|proxy
+      @|fr\cel\flashblock\Flashblock.java|995|1002|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fr\cel\flashblock\Flashblock.java|1079|1080|e|param|fr.cel.flashblock.Flashblock|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|fr\cel\flashblock\Flashblock.java|1018|1034|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|fr\cel\flashblock\Flashblock.java|1051|1055|init|method|fr.cel.flashblock.Flashblock|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fr\cel\flashblock\Flashblock.java|1056|1078|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|fr\cel\flashblock\Flashblock.java|1092|1097|proxy|field|fr.cel.flashblock.Flashblock|proxy
+      @|fr\cel\flashblock\Flashblock.java|1098|1102|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : fr.cel.flashblock.Flashblock
+endProcessing "fr\cel\flashblock\Flashblock.java"
+
+startProcessing "fr\cel\flashblock\enchant\EnchantmentDeathTouch.java" md5: 83de987c37c20ee3e98332b0ae4adbc0
+@|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|8|33|fr.cel.flashblock.enchant|package|fr.cel.flashblock.enchant|(file)
+Class Start: fr.cel.flashblock.enchant.EnchantmentDeathTouch
+   @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|202|223|EnchantmentDeathTouch|class|fr.cel.flashblock.enchant.EnchantmentDeathTouch
+   @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|232|243|Enchantment|class|net.minecraft.enchantment.Enchantment
+   Method Start: EnchantmentDeathTouch(Ljava/lang/String;)V
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|287|291|name|param|fr.cel.flashblock.enchant.EnchantmentDeathTouch|EnchantmentDeathTouch|(Ljava/lang/String;)V|name|0
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|258|279|EnchantmentDeathTouch|method|fr.cel.flashblock.enchant.EnchantmentDeathTouch|EnchantmentDeathTouch|(Ljava/lang/String;)V
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|280|286|String|class|java.lang.String
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|309|315|Rarity|class|net.minecraft.enchantment.Enchantment.Rarity
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|316|322|COMMON|field|net.minecraft.enchantment.Enchantment.Rarity|COMMON
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|324|343|EnumEnchantmentType|class|net.minecraft.enchantment.EnumEnchantmentType
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|344|350|WEAPON|field|net.minecraft.enchantment.EnumEnchantmentType|WEAPON
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|356|375|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|395|410|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|411|415|name|param|fr.cel.flashblock.enchant.EnchantmentDeathTouch|EnchantmentDeathTouch|(Ljava/lang/String;)V|name|0
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|431|438|setName|method|net.minecraft.enchantment.Enchantment|setName|(Ljava/lang/String;)Lnet/minecraft/enchantment/Enchantment;
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|439|443|name|param|fr.cel.flashblock.enchant.EnchantmentDeathTouch|EnchantmentDeathTouch|(Ljava/lang/String;)V|name|0
+   Method End: EnchantmentDeathTouch(Ljava/lang/String;)V
+   Method Start: getMinLevel()I
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|458|466|Override|class|java.lang.Override
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|482|493|getMinLevel|method|net.minecraft.enchantment.Enchantment|getMinLevel|()I
+   Method End: getMinLevel()I
+   Method Start: getMaxLevel()I
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|528|536|Override|class|java.lang.Override
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|552|563|getMaxLevel|method|net.minecraft.enchantment.Enchantment|getMaxLevel|()I
+   Method End: getMaxLevel()I
+   Method Start: getMinEnchantability(I)I
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|647|663|enchantmentLevel|param|fr.cel.flashblock.enchant.EnchantmentDeathTouch|getMinEnchantability|(I)I|enchantmentLevel|0
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|598|606|Override|class|java.lang.Override
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|622|642|getMinEnchantability|method|net.minecraft.enchantment.Enchantment|getMinEnchantability|(I)I
+   Method End: getMinEnchantability(I)I
+   Method Start: getMaxEnchantability(I)I
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|747|763|enchantmentLevel|param|fr.cel.flashblock.enchant.EnchantmentDeathTouch|getMaxEnchantability|(I)I|enchantmentLevel|0
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|698|706|Override|class|java.lang.Override
+      @|fr\cel\flashblock\enchant\EnchantmentDeathTouch.java|722|742|getMaxEnchantability|method|net.minecraft.enchantment.Enchantment|getMaxEnchantability|(I)I
+   Method End: getMaxEnchantability(I)I
+Class End  : fr.cel.flashblock.enchant.EnchantmentDeathTouch
+endProcessing "fr\cel\flashblock\enchant\EnchantmentDeathTouch.java"
+
+startProcessing "fr\cel\flashblock\events\DeathTouchEvent.java" md5: 055627df9cbef4a1993736fae8979c90
+@|fr\cel\flashblock\events\DeathTouchEvent.java|8|32|fr.cel.flashblock.events|package|fr.cel.flashblock.events|(file)
+Class Start: fr.cel.flashblock.events.DeathTouchEvent
+   @|fr\cel\flashblock\events\DeathTouchEvent.java|479|494|DeathTouchEvent|class|fr.cel.flashblock.events.DeathTouchEvent
+   Method Start: onDeathTouch(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|565|566|e|param|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|e|0
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|503|517|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|534|546|onDeathTouch|method|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|547|564|AttackEntityEvent|class|net.minecraftforge.event.entity.player.AttackEntityEvent
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|583|584|e|param|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|e|0
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|585|600|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|626|638|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|648|649|e|param|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|e|0
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|650|665|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|693|704|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|705|713|EnumHand|class|net.minecraft.util.EnumHand
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|714|723|MAIN_HAND|field|net.minecraft.util.EnumHand|MAIN_HAND
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|752|761|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|776|787|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|788|796|EnumHand|class|net.minecraft.util.EnumHand
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|797|806|MAIN_HAND|field|net.minecraft.util.EnumHand|MAIN_HAND
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|830|847|EnchantmentHelper|class|net.minecraft.enchantment.EnchantmentHelper
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|848|867|getEnchantmentLevel|method|net.minecraft.enchantment.EnchantmentHelper|getEnchantmentLevel|(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|868|883|ModEnchantments|class|fr.cel.flashblock.init.ModEnchantments
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|884|895|death_touch|field|fr.cel.flashblock.init.ModEnchantments|death_touch
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|935|936|e|param|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|e|0
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|937|946|getTarget|method|net.minecraftforge.event.entity.player.AttackEntityEvent|getTarget|()Lnet/minecraft/entity/Entity;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|984|990|Entity|class|net.minecraft.entity.Entity
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|1000|1001|e|param|fr.cel.flashblock.events.DeathTouchEvent|onDeathTouch|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|e|0
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|1002|1011|getTarget|method|net.minecraftforge.event.entity.player.AttackEntityEvent|getTarget|()Lnet/minecraft/entity/Entity;
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|1062|1074|EntityLiving|class|net.minecraft.entity.EntityLiving
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|1108|1120|EntityLiving|class|net.minecraft.entity.EntityLiving
+      @|fr\cel\flashblock\events\DeathTouchEvent.java|1130|1139|setHealth|method|net.minecraft.entity.EntityLivingBase|setHealth|(F)V
+   Method End: onDeathTouch(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+Class End  : fr.cel.flashblock.events.DeathTouchEvent
+endProcessing "fr\cel\flashblock\events\DeathTouchEvent.java"
+
+startProcessing "fr\cel\flashblock\gen\OreGeneration.java" md5: 5296d6c068949bc9f0b75fdfe1616c9e
+@|fr\cel\flashblock\gen\OreGeneration.java|8|29|fr.cel.flashblock.gen|package|fr.cel.flashblock.gen|(file)
+Class Start: fr.cel.flashblock.gen.OreGeneration
+   @|fr\cel\flashblock\gen\OreGeneration.java|532|545|OreGeneration|class|fr.cel.flashblock.gen.OreGeneration
+   @|fr\cel\flashblock\gen\OreGeneration.java|557|572|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|622|628|random|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|634|640|chunkX|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|646|652|chunkZ|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|660|665|world|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|683|697|chunkGenerator|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|fr\cel\flashblock\gen\OreGeneration.java|714|727|chunkProvider|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|fr\cel\flashblock\gen\OreGeneration.java|581|589|Override|class|java.lang.Override
+      @|fr\cel\flashblock\gen\OreGeneration.java|606|614|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|615|621|Random|class|java.util.Random
+      @|fr\cel\flashblock\gen\OreGeneration.java|654|659|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\gen\OreGeneration.java|667|682|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|fr\cel\flashblock\gen\OreGeneration.java|699|713|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|fr\cel\flashblock\gen\OreGeneration.java|748|753|world|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|754|762|provider|field|net.minecraft.world.World|provider
+      @|fr\cel\flashblock\gen\OreGeneration.java|763|779|getDimensionType|method|net.minecraft.world.WorldProvider|getDimensionType|()Lnet/minecraft/world/DimensionType;
+      @|fr\cel\flashblock\gen\OreGeneration.java|802|811|OVERWORLD|field|net.minecraft.world.DimensionType|OVERWORLD
+      @|fr\cel\flashblock\gen\OreGeneration.java|829|844|generateSurface|method|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|845|850|world|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|852|858|random|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|860|866|chunkX|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|873|879|chunkZ|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|905|911|NETHER|field|net.minecraft.world.DimensionType|NETHER
+      @|fr\cel\flashblock\gen\OreGeneration.java|929|943|generateNether|method|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|944|949|world|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|951|957|random|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|959|965|chunkX|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|972|978|chunkZ|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1003|1010|THE_END|field|net.minecraft.world.DimensionType|THE_END
+      @|fr\cel\flashblock\gen\OreGeneration.java|1028|1039|generateEnd|method|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1040|1045|world|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1047|1053|random|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1055|1061|chunkX|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1068|1074|chunkZ|param|fr.cel.flashblock.gen.OreGeneration|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: generateSurface(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1140|1145|world|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|world|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1154|1160|random|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|random|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1166|1167|x|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|x|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1173|1174|z|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|z|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1118|1133|generateSurface|method|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1134|1139|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\gen\OreGeneration.java|1147|1153|Random|class|java.util.Random
+      @|fr\cel\flashblock\gen\OreGeneration.java|1186|1197|generateOre|method|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1198|1207|ModBlocks|class|fr.cel.flashblock.init.ModBlocks
+      @|fr\cel\flashblock\gen\OreGeneration.java|1208|1217|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+      @|fr\cel\flashblock\gen\OreGeneration.java|1218|1233|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|fr\cel\flashblock\gen\OreGeneration.java|1237|1242|world|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|world|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1244|1250|random|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|random|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1252|1253|x|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|x|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1255|1256|z|param|fr.cel.flashblock.gen.OreGeneration|generateSurface|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|z|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1272|1284|BlockMatcher|class|net.minecraft.block.state.pattern.BlockMatcher
+      @|fr\cel\flashblock\gen\OreGeneration.java|1285|1293|forBlock|method|net.minecraft.block.state.pattern.BlockMatcher|forBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/state/pattern/BlockMatcher;
+      @|fr\cel\flashblock\gen\OreGeneration.java|1294|1300|Blocks|class|net.minecraft.init.Blocks
+      @|fr\cel\flashblock\gen\OreGeneration.java|1301|1306|STONE|field|net.minecraft.init.Blocks|STONE
+   Method End: generateSurface(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+   Method Start: generateNether(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1355|1360|world|param|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|world|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1369|1375|random|param|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|random|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1381|1382|x|param|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|x|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1388|1389|z|param|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|z|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1334|1348|generateNether|method|fr.cel.flashblock.gen.OreGeneration|generateNether|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1349|1354|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\gen\OreGeneration.java|1362|1368|Random|class|java.util.Random
+   Method End: generateNether(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+   Method Start: generateEnd(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1436|1441|world|param|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|world|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1450|1456|random|param|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|random|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1462|1463|x|param|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|x|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1469|1470|z|param|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V|z|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1418|1429|generateEnd|method|fr.cel.flashblock.gen.OreGeneration|generateEnd|(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1430|1435|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\gen\OreGeneration.java|1443|1449|Random|class|java.util.Random
+   Method End: generateEnd(Lnet/minecraft/world/World;Ljava/util/Random;II)V
+   Method Start: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1523|1526|ore|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|ore|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1534|1539|world|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|world|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|1548|1554|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1560|1561|x|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|x|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1567|1568|z|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|z|4
+      @|fr\cel\flashblock\gen\OreGeneration.java|1574|1578|minY|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|minY|5
+      @|fr\cel\flashblock\gen\OreGeneration.java|1584|1588|maxY|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|maxY|6
+      @|fr\cel\flashblock\gen\OreGeneration.java|1594|1605|maxVeinSize|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|maxVeinSize|7
+      @|fr\cel\flashblock\gen\OreGeneration.java|1611|1618|chances|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|chances|8
+      @|fr\cel\flashblock\gen\OreGeneration.java|1633|1646|blockChanging|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|blockChanging|9
+      @|fr\cel\flashblock\gen\OreGeneration.java|1499|1510|generateOre|method|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V
+      @|fr\cel\flashblock\gen\OreGeneration.java|1511|1522|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|fr\cel\flashblock\gen\OreGeneration.java|1528|1533|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\gen\OreGeneration.java|1541|1547|Random|class|java.util.Random
+      @|fr\cel\flashblock\gen\OreGeneration.java|1620|1632|BlockMatcher|class|net.minecraft.block.state.pattern.BlockMatcher
+      @|fr\cel\flashblock\gen\OreGeneration.java|1671|1675|maxY|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|maxY|6
+      @|fr\cel\flashblock\gen\OreGeneration.java|1678|1682|minY|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|minY|5
+      @|fr\cel\flashblock\gen\OreGeneration.java|1707|1713|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1714|1721|nextInt|method|java.util.Random|nextInt|(I)I
+      @|fr\cel\flashblock\gen\OreGeneration.java|1722|1733|maxVeinSize|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|maxVeinSize|7
+      @|fr\cel\flashblock\gen\OreGeneration.java|1769|1776|chances|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|chances|8
+      @|fr\cel\flashblock\gen\OreGeneration.java|1797|1805|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|fr\cel\flashblock\gen\OreGeneration.java|1816|1824|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|fr\cel\flashblock\gen\OreGeneration.java|1825|1826|x|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|x|3
+      @|fr\cel\flashblock\gen\OreGeneration.java|1829|1835|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1836|1843|nextInt|method|java.util.Random|nextInt|(I)I
+      @|fr\cel\flashblock\gen\OreGeneration.java|1849|1853|minY|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|minY|5
+      @|fr\cel\flashblock\gen\OreGeneration.java|1856|1862|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1863|1870|nextInt|method|java.util.Random|nextInt|(I)I
+      @|fr\cel\flashblock\gen\OreGeneration.java|1880|1881|z|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|z|4
+      @|fr\cel\flashblock\gen\OreGeneration.java|1884|1890|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+      @|fr\cel\flashblock\gen\OreGeneration.java|1891|1898|nextInt|method|java.util.Random|nextInt|(I)I
+      @|fr\cel\flashblock\gen\OreGeneration.java|1918|1933|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|fr\cel\flashblock\gen\OreGeneration.java|1950|1965|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|fr\cel\flashblock\gen\OreGeneration.java|1966|1969|ore|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|ore|0
+      @|fr\cel\flashblock\gen\OreGeneration.java|1981|1994|blockChanging|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|blockChanging|9
+      @|fr\cel\flashblock\gen\OreGeneration.java|2019|2027|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|fr\cel\flashblock\gen\OreGeneration.java|2028|2033|world|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|world|1
+      @|fr\cel\flashblock\gen\OreGeneration.java|2035|2041|random|param|fr.cel.flashblock.gen.OreGeneration|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V|random|2
+   Method End: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIIILnet/minecraft/block/state/pattern/BlockMatcher;)V
+Class End  : fr.cel.flashblock.gen.OreGeneration
+endProcessing "fr\cel\flashblock\gen\OreGeneration.java"
+
+startProcessing "fr\cel\flashblock\init\ModBlocks.java" md5: e5846cca6b1d991fbd7d019e620eb688
+@|fr\cel\flashblock\init\ModBlocks.java|8|30|fr.cel.flashblock.init|package|fr.cel.flashblock.init|(file)
+Class Start: fr.cel.flashblock.init.ModBlocks
+   @|fr\cel\flashblock\init\ModBlocks.java|602|611|ModBlocks|class|fr.cel.flashblock.init.ModBlocks
+   Method Start: ModBlocks()V
+      @|fr\cel\flashblock\init\ModBlocks.java|626|635|ModBlocks|method|fr.cel.flashblock.init.ModBlocks|ModBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|647|657|initBlocks|method|fr.cel.flashblock.init.ModBlocks|initBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|669|684|registersBlocks|method|fr.cel.flashblock.init.ModBlocks|registersBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|696|714|registerItemBlocks|method|fr.cel.flashblock.init.ModBlocks|registerItemBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|726|741|registerRenders|method|fr.cel.flashblock.init.ModBlocks|registerRenders|()V
+   Method End: ModBlocks()V
+   @|fr\cel\flashblock\init\ModBlocks.java|1113|1118|Block|class|net.minecraft.block.Block
+   @|fr\cel\flashblock\init\ModBlocks.java|1113|1118|Block|class|net.minecraft.block.Block
+   @|fr\cel\flashblock\init\ModBlocks.java|1119|1128|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock|
+   Method Start: initBlocks()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1148|1158|initBlocks|method|fr.cel.flashblock.init.ModBlocks|initBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1171|1180|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+      @|fr\cel\flashblock\init\ModBlocks.java|1187|1192|Block|class|net.minecraft.block.Block
+      @|fr\cel\flashblock\init\ModBlocks.java|1193|1201|Material|class|net.minecraft.block.material.Material
+      @|fr\cel\flashblock\init\ModBlocks.java|1202|1206|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|fr\cel\flashblock\init\ModBlocks.java|1208|1219|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|fr\cel\flashblock\init\ModBlocks.java|1226|1239|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|fr\cel\flashblock\init\ModBlocks.java|1247|1262|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\init\ModBlocks.java|1276|1294|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|fr\cel\flashblock\init\ModBlocks.java|1308|1322|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|fr\cel\flashblock\init\ModBlocks.java|1323|1333|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\init\ModBlocks.java|1334|1337|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: initBlocks()V
+   Method Start: registersBlocks()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1364|1379|registersBlocks|method|fr.cel.flashblock.init.ModBlocks|registersBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1392|1400|register|method|fr.cel.flashblock.init.ModBlocks|register|(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1401|1410|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+   Method End: registersBlocks()V
+   Method Start: registerRenders()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1425|1433|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|fr\cel\flashblock\init\ModBlocks.java|1434|1438|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|fr\cel\flashblock\init\ModBlocks.java|1439|1445|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|fr\cel\flashblock\init\ModBlocks.java|1464|1479|registerRenders|method|fr.cel.flashblock.init.ModBlocks|registerRenders|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1492|1506|registerRender|method|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1507|1516|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+   Method End: registerRenders()V
+   Method Start: registerItemBlocks()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1546|1564|registerItemBlocks|method|fr.cel.flashblock.init.ModBlocks|registerItemBlocks|()V
+      @|fr\cel\flashblock\init\ModBlocks.java|1577|1594|registerItemBlock|method|fr.cel.flashblock.init.ModBlocks|registerItemBlock|(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1595|1604|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+   Method End: registerItemBlocks()V
+   Method Start: register(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1768|1773|block|param|fr.cel.flashblock.init.ModBlocks|register|(Lnet/minecraft/block/Block;)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|1753|1761|register|method|fr.cel.flashblock.init.ModBlocks|register|(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1762|1767|Block|class|net.minecraft.block.Block
+      @|fr\cel\flashblock\init\ModBlocks.java|1785|1797|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModBlocks.java|1798|1806|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\init\ModBlocks.java|1807|1812|block|param|fr.cel.flashblock.init.ModBlocks|register|(Lnet/minecraft/block/Block;)V|block|0
+   Method End: register(Lnet/minecraft/block/Block;)V
+   Method Start: registerRender(Lnet/minecraft/block/Block;I)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1860|1865|block|param|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|1871|1875|meta|param|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V|meta|1
+      @|fr\cel\flashblock\init\ModBlocks.java|1839|1853|registerRender|method|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1854|1859|Block|class|net.minecraft.block.Block
+      @|fr\cel\flashblock\init\ModBlocks.java|1887|1898|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|fr\cel\flashblock\init\ModBlocks.java|1899|1929|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|1930|1934|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\init\ModBlocks.java|1935|1951|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\init\ModBlocks.java|1952|1957|block|param|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|1960|1964|meta|param|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V|meta|1
+      @|fr\cel\flashblock\init\ModBlocks.java|1970|1991|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|fr\cel\flashblock\init\ModBlocks.java|1996|2012|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|fr\cel\flashblock\init\ModBlocks.java|2013|2023|References|class|fr.cel.flashblock.utils.References
+      @|fr\cel\flashblock\init\ModBlocks.java|2024|2029|MODID|field|fr.cel.flashblock.utils.References|MODID
+      @|fr\cel\flashblock\init\ModBlocks.java|2031|2036|block|param|fr.cel.flashblock.init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;I)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|2037|2055|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|fr\cel\flashblock\init\ModBlocks.java|2058|2067|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerRender(Lnet/minecraft/block/Block;I)V
+   Method Start: registerItemBlock(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|2136|2141|block|param|fr.cel.flashblock.init.ModBlocks|registerItemBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|2112|2129|registerItemBlock|method|fr.cel.flashblock.init.ModBlocks|registerItemBlock|(Lnet/minecraft/block/Block;)V
+      @|fr\cel\flashblock\init\ModBlocks.java|2130|2135|Block|class|net.minecraft.block.Block
+      @|fr\cel\flashblock\init\ModBlocks.java|2153|2162|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|fr\cel\flashblock\init\ModBlocks.java|2179|2188|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|fr\cel\flashblock\init\ModBlocks.java|2189|2194|block|param|fr.cel.flashblock.init.ModBlocks|registerItemBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|2215|2230|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|fr\cel\flashblock\init\ModBlocks.java|2231|2236|block|param|fr.cel.flashblock.init.ModBlocks|registerItemBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|fr\cel\flashblock\init\ModBlocks.java|2237|2252|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|fr\cel\flashblock\init\ModBlocks.java|2265|2277|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModBlocks.java|2278|2286|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+   Method End: registerItemBlock(Lnet/minecraft/block/Block;)V
+Class End  : fr.cel.flashblock.init.ModBlocks
+endProcessing "fr\cel\flashblock\init\ModBlocks.java"
+
+startProcessing "fr\cel\flashblock\init\ModEnchantments.java" md5: 1b1bfb42d0b661ba82bba22fc10211c6
+@|fr\cel\flashblock\init\ModEnchantments.java|8|30|fr.cel.flashblock.init|package|fr.cel.flashblock.init|(file)
+Class Start: fr.cel.flashblock.init.ModEnchantments
+   @|fr\cel\flashblock\init\ModEnchantments.java|209|224|ModEnchantments|class|fr.cel.flashblock.init.ModEnchantments
+   Method Start: ModEnchantments()V
+      @|fr\cel\flashblock\init\ModEnchantments.java|239|254|ModEnchantments|method|fr.cel.flashblock.init.ModEnchantments|ModEnchantments|()V
+      @|fr\cel\flashblock\init\ModEnchantments.java|266|286|registerEnchantments|method|fr.cel.flashblock.init.ModEnchantments|registerEnchantments|()V
+   Method End: ModEnchantments()V
+   @|fr\cel\flashblock\init\ModEnchantments.java|321|332|Enchantment|class|net.minecraft.enchantment.Enchantment
+   @|fr\cel\flashblock\init\ModEnchantments.java|321|332|Enchantment|class|net.minecraft.enchantment.Enchantment
+   @|fr\cel\flashblock\init\ModEnchantments.java|333|344|death_touch|field|fr.cel.flashblock.init.ModEnchantments|death_touch|
+   @|fr\cel\flashblock\init\ModEnchantments.java|351|372|EnchantmentDeathTouch|class|fr.cel.flashblock.enchant.EnchantmentDeathTouch
+   Method Start: registerEnchantments()V
+      @|fr\cel\flashblock\init\ModEnchantments.java|413|433|registerEnchantments|method|fr.cel.flashblock.init.ModEnchantments|registerEnchantments|()V
+      @|fr\cel\flashblock\init\ModEnchantments.java|445|457|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModEnchantments.java|458|466|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\init\ModEnchantments.java|467|478|death_touch|field|fr.cel.flashblock.init.ModEnchantments|death_touch
+   Method End: registerEnchantments()V
+Class End  : fr.cel.flashblock.init.ModEnchantments
+endProcessing "fr\cel\flashblock\init\ModEnchantments.java"
+
+startProcessing "fr\cel\flashblock\init\ModItems.java" md5: 41676c62a5901ac0d98490f41d34deb0
+@|fr\cel\flashblock\init\ModItems.java|8|30|fr.cel.flashblock.init|package|fr.cel.flashblock.init|(file)
+Class Start: fr.cel.flashblock.init.ModItems
+   @|fr\cel\flashblock\init\ModItems.java|1004|1012|ModItems|class|fr.cel.flashblock.init.ModItems
+   Method Start: ModItems()V
+      @|fr\cel\flashblock\init\ModItems.java|1027|1035|ModItems|method|fr.cel.flashblock.init.ModItems|ModItems|()V
+      @|fr\cel\flashblock\init\ModItems.java|1048|1057|initItems|method|fr.cel.flashblock.init.ModItems|initItems|()V
+      @|fr\cel\flashblock\init\ModItems.java|1069|1082|registerItems|method|fr.cel.flashblock.init.ModItems|registerItems|()V
+      @|fr\cel\flashblock\init\ModItems.java|1094|1109|registerRenders|method|fr.cel.flashblock.init.ModItems|registerRenders|()V
+   Method End: ModItems()V
+   @|fr\cel\flashblock\init\ModItems.java|1421|1425|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1421|1425|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1426|1440|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo|
+   @|fr\cel\flashblock\init\ModItems.java|1442|1450|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta|
+   @|fr\cel\flashblock\init\ModItems.java|1452|1460|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak|
+   @|fr\cel\flashblock\init\ModItems.java|1480|1484|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1480|1484|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1485|1496|test_helmet|field|fr.cel.flashblock.init.ModItems|test_helmet|
+   @|fr\cel\flashblock\init\ModItems.java|1498|1513|test_chestplate|field|fr.cel.flashblock.init.ModItems|test_chestplate|
+   @|fr\cel\flashblock\init\ModItems.java|1515|1528|test_leggings|field|fr.cel.flashblock.init.ModItems|test_leggings|
+   @|fr\cel\flashblock\init\ModItems.java|1530|1540|test_boots|field|fr.cel.flashblock.init.ModItems|test_boots|
+   @|fr\cel\flashblock\init\ModItems.java|1566|1570|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1566|1570|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\init\ModItems.java|1571|1580|testSword|field|fr.cel.flashblock.init.ModItems|testSword|
+   @|fr\cel\flashblock\init\ModItems.java|1587|1596|TestSword|class|fr.cel.flashblock.items.TestSword
+   @|fr\cel\flashblock\init\ModItems.java|1611|1624|ToolMaterials|class|fr.cel.flashblock.init.ModItems.ToolMaterials
+   @|fr\cel\flashblock\init\ModItems.java|1625|1632|testMat|field|fr.cel.flashblock.init.ModItems.ToolMaterials|testMat
+   Method Start: initItems()V
+      @|fr\cel\flashblock\init\ModItems.java|1693|1702|initItems|method|fr.cel.flashblock.init.ModItems|initItems|()V
+      @|fr\cel\flashblock\init\ModItems.java|1715|1729|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+      @|fr\cel\flashblock\init\ModItems.java|1736|1740|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\init\ModItems.java|1743|1758|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\init\ModItems.java|1777|1795|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\init\ModItems.java|1814|1828|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\init\ModItems.java|1829|1839|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\init\ModItems.java|1840|1843|tab|field|fr.cel.flashblock.Flashblock|tab
+      @|fr\cel\flashblock\init\ModItems.java|1854|1862|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta
+      @|fr\cel\flashblock\init\ModItems.java|1869|1877|ItemMeta|class|fr.cel.flashblock.items.ItemMeta
+      @|fr\cel\flashblock\init\ModItems.java|1899|1907|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak
+      @|fr\cel\flashblock\init\ModItems.java|1914|1922|RedSteak|class|fr.cel.flashblock.items.RedSteak
+      @|fr\cel\flashblock\init\ModItems.java|1957|1968|test_helmet|field|fr.cel.flashblock.init.ModItems|test_helmet
+      @|fr\cel\flashblock\init\ModItems.java|1975|1985|TestHelmet|class|fr.cel.flashblock.items.testArmor.TestHelmet
+      @|fr\cel\flashblock\init\ModItems.java|2001|2015|ArmorMaterials|class|fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|2016|2023|testMat|field|fr.cel.flashblock.init.ModItems.ArmorMaterials|testMat
+      @|fr\cel\flashblock\init\ModItems.java|2028|2047|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\init\ModItems.java|2048|2052|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+      @|fr\cel\flashblock\init\ModItems.java|2063|2078|test_chestplate|field|fr.cel.flashblock.init.ModItems|test_chestplate
+      @|fr\cel\flashblock\init\ModItems.java|2085|2099|TestChestplate|class|fr.cel.flashblock.items.testArmor.TestChestplate
+      @|fr\cel\flashblock\init\ModItems.java|2119|2133|ArmorMaterials|class|fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|2134|2141|testMat|field|fr.cel.flashblock.init.ModItems.ArmorMaterials|testMat
+      @|fr\cel\flashblock\init\ModItems.java|2146|2165|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\init\ModItems.java|2166|2171|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+      @|fr\cel\flashblock\init\ModItems.java|2182|2195|test_leggings|field|fr.cel.flashblock.init.ModItems|test_leggings
+      @|fr\cel\flashblock\init\ModItems.java|2202|2214|TestLeggings|class|fr.cel.flashblock.items.testArmor.TestLeggings
+      @|fr\cel\flashblock\init\ModItems.java|2232|2246|ArmorMaterials|class|fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|2247|2254|testMat|field|fr.cel.flashblock.init.ModItems.ArmorMaterials|testMat
+      @|fr\cel\flashblock\init\ModItems.java|2259|2278|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\init\ModItems.java|2279|2283|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|fr\cel\flashblock\init\ModItems.java|2294|2304|test_boots|field|fr.cel.flashblock.init.ModItems|test_boots
+      @|fr\cel\flashblock\init\ModItems.java|2311|2320|TestBoots|class|fr.cel.flashblock.items.testArmor.TestBoots
+      @|fr\cel\flashblock\init\ModItems.java|2335|2349|ArmorMaterials|class|fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|2350|2357|testMat|field|fr.cel.flashblock.init.ModItems.ArmorMaterials|testMat
+      @|fr\cel\flashblock\init\ModItems.java|2362|2381|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\init\ModItems.java|2382|2386|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+   Method End: initItems()V
+   Method Start: registerItems()V
+      @|fr\cel\flashblock\init\ModItems.java|2449|2462|registerItems|method|fr.cel.flashblock.init.ModItems|registerItems|()V
+      @|fr\cel\flashblock\init\ModItems.java|2475|2487|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2488|2502|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+      @|fr\cel\flashblock\init\ModItems.java|2513|2525|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2526|2534|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta
+      @|fr\cel\flashblock\init\ModItems.java|2545|2557|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2558|2566|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak
+      @|fr\cel\flashblock\init\ModItems.java|2600|2612|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2613|2624|test_helmet|field|fr.cel.flashblock.init.ModItems|test_helmet
+      @|fr\cel\flashblock\init\ModItems.java|2635|2647|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2648|2663|test_chestplate|field|fr.cel.flashblock.init.ModItems|test_chestplate
+      @|fr\cel\flashblock\init\ModItems.java|2674|2686|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2687|2700|test_leggings|field|fr.cel.flashblock.init.ModItems|test_leggings
+      @|fr\cel\flashblock\init\ModItems.java|2711|2723|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2724|2734|test_boots|field|fr.cel.flashblock.init.ModItems|test_boots
+      @|fr\cel\flashblock\init\ModItems.java|2746|2758|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|2759|2768|testSword|field|fr.cel.flashblock.init.ModItems|testSword
+   Method End: registerItems()V
+   Method Start: registerRenders()V
+      @|fr\cel\flashblock\init\ModItems.java|2833|2841|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|fr\cel\flashblock\init\ModItems.java|2842|2846|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|fr\cel\flashblock\init\ModItems.java|2847|2853|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|fr\cel\flashblock\init\ModItems.java|2871|2886|registerRenders|method|fr.cel.flashblock.init.ModItems|registerRenders|()V
+      @|fr\cel\flashblock\init\ModItems.java|2899|2913|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|2914|2928|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+      @|fr\cel\flashblock\init\ModItems.java|2942|2956|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|2957|2965|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak
+      @|fr\cel\flashblock\init\ModItems.java|2980|2994|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|2995|3003|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta
+      @|fr\cel\flashblock\init\ModItems.java|3017|3031|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3032|3040|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta
+      @|fr\cel\flashblock\init\ModItems.java|3054|3068|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3069|3077|itemMeta|field|fr.cel.flashblock.init.ModItems|itemMeta
+      @|fr\cel\flashblock\init\ModItems.java|3092|3106|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3107|3118|test_helmet|field|fr.cel.flashblock.init.ModItems|test_helmet
+      @|fr\cel\flashblock\init\ModItems.java|3132|3146|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3147|3162|test_chestplate|field|fr.cel.flashblock.init.ModItems|test_chestplate
+      @|fr\cel\flashblock\init\ModItems.java|3176|3190|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3191|3204|test_leggings|field|fr.cel.flashblock.init.ModItems|test_leggings
+      @|fr\cel\flashblock\init\ModItems.java|3218|3232|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3233|3243|test_boots|field|fr.cel.flashblock.init.ModItems|test_boots
+      @|fr\cel\flashblock\init\ModItems.java|3258|3272|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3273|3282|testSword|field|fr.cel.flashblock.init.ModItems|testSword
+   Method End: registerRenders()V
+   Method Start: registerItem(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|3483|3487|item|param|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3465|3477|registerItem|method|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|fr\cel\flashblock\init\ModItems.java|3478|3482|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\init\ModItems.java|3499|3511|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModItems.java|3512|3520|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\init\ModItems.java|3521|3525|item|param|fr.cel.flashblock.init.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+   Method End: registerItem(Lnet/minecraft/item/Item;)V
+   Method Start: registerRender(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3616|3620|item|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3626|3630|meta|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|meta|1
+      @|fr\cel\flashblock\init\ModItems.java|3596|3610|registerRender|method|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V
+      @|fr\cel\flashblock\init\ModItems.java|3611|3615|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\init\ModItems.java|3646|3650|meta|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|meta|1
+      @|fr\cel\flashblock\init\ModItems.java|3671|3682|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|fr\cel\flashblock\init\ModItems.java|3683|3713|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|fr\cel\flashblock\init\ModItems.java|3714|3718|item|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3727|3748|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|fr\cel\flashblock\init\ModItems.java|3753|3769|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|fr\cel\flashblock\init\ModItems.java|3770|3780|References|class|fr.cel.flashblock.utils.References
+      @|fr\cel\flashblock\init\ModItems.java|3781|3786|MODID|field|fr.cel.flashblock.utils.References|MODID
+      @|fr\cel\flashblock\init\ModItems.java|3788|3792|item|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3793|3811|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|fr\cel\flashblock\init\ModItems.java|3814|3823|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|fr\cel\flashblock\init\ModItems.java|3873|3884|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|fr\cel\flashblock\init\ModItems.java|3885|3915|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|fr\cel\flashblock\init\ModItems.java|3916|3920|item|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3922|3926|meta|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|meta|1
+      @|fr\cel\flashblock\init\ModItems.java|3932|3953|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|fr\cel\flashblock\init\ModItems.java|3958|3974|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|fr\cel\flashblock\init\ModItems.java|3975|3985|References|class|fr.cel.flashblock.utils.References
+      @|fr\cel\flashblock\init\ModItems.java|3986|3991|MODID|field|fr.cel.flashblock.utils.References|MODID
+      @|fr\cel\flashblock\init\ModItems.java|3993|3997|item|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|item|0
+      @|fr\cel\flashblock\init\ModItems.java|3998|4016|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|fr\cel\flashblock\init\ModItems.java|4019|4028|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|fr\cel\flashblock\init\ModItems.java|4034|4038|meta|param|fr.cel.flashblock.init.ModItems|registerRender|(Lnet/minecraft/item/Item;I)V|meta|1
+   Method End: registerRender(Lnet/minecraft/item/Item;I)V
+   Class Start: fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|4097|4111|ArmorMaterials|class|fr.cel.flashblock.init.ModItems.ArmorMaterials
+      @|fr\cel\flashblock\init\ModItems.java|4142|4165|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\init\ModItems.java|4142|4165|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\init\ModItems.java|4166|4173|testMat|field|fr.cel.flashblock.init.ModItems.ArmorMaterials|testMat|
+      @|fr\cel\flashblock\init\ModItems.java|4176|4186|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+      @|fr\cel\flashblock\init\ModItems.java|4187|4203|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+      @|fr\cel\flashblock\init\ModItems.java|4220|4230|References|class|fr.cel.flashblock.utils.References
+      @|fr\cel\flashblock\init\ModItems.java|4231|4236|MODID|field|fr.cel.flashblock.utils.References|MODID
+      @|fr\cel\flashblock\init\ModItems.java|4285|4296|SoundEvents|class|net.minecraft.init.SoundEvents
+      @|fr\cel\flashblock\init\ModItems.java|4297|4321|ITEM_ARMOR_EQUIP_DIAMOND|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_DIAMOND
+   Class End  : fr.cel.flashblock.init.ModItems.ArmorMaterials
+   Class Start: fr.cel.flashblock.init.ModItems.ToolMaterials
+      @|fr\cel\flashblock\init\ModItems.java|4361|4374|ToolMaterials|class|fr.cel.flashblock.init.ModItems.ToolMaterials
+      @|fr\cel\flashblock\init\ModItems.java|4406|4423|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|fr\cel\flashblock\init\ModItems.java|4406|4423|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|fr\cel\flashblock\init\ModItems.java|4424|4431|testMat|field|fr.cel.flashblock.init.ModItems.ToolMaterials|testMat|
+      @|fr\cel\flashblock\init\ModItems.java|4434|4444|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+      @|fr\cel\flashblock\init\ModItems.java|4445|4460|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   Class End  : fr.cel.flashblock.init.ModItems.ToolMaterials
+Class End  : fr.cel.flashblock.init.ModItems
+endProcessing "fr\cel\flashblock\init\ModItems.java"
+
+startProcessing "fr\cel\flashblock\init\ModRecipes.java" md5: 7c4e0b32cf2909f8ac833425e42cabdc
+@|fr\cel\flashblock\init\ModRecipes.java|8|30|fr.cel.flashblock.init|package|fr.cel.flashblock.init|(file)
+Class Start: fr.cel.flashblock.init.ModRecipes
+   @|fr\cel\flashblock\init\ModRecipes.java|275|285|ModRecipes|class|fr.cel.flashblock.init.ModRecipes
+   Method Start: ModRecipes()V
+      @|fr\cel\flashblock\init\ModRecipes.java|300|310|ModRecipes|method|fr.cel.flashblock.init.ModRecipes|ModRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|323|343|registerCraftRecipes|method|fr.cel.flashblock.init.ModRecipes|registerCraftRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|355|378|registerFurncaceRecipes|method|fr.cel.flashblock.init.ModRecipes|registerFurncaceRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|390|412|registerBrewingRecipes|method|fr.cel.flashblock.init.ModRecipes|registerBrewingRecipes|()V
+   Method End: ModRecipes()V
+   Method Start: registerCraftRecipes()V
+      @|fr\cel\flashblock\init\ModRecipes.java|439|459|registerCraftRecipes|method|fr.cel.flashblock.init.ModRecipes|registerCraftRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|472|484|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModRecipes.java|485|500|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|fr\cel\flashblock\init\ModRecipes.java|505|514|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|515|523|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|524|538|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+      @|fr\cel\flashblock\init\ModRecipes.java|567|575|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|576|584|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak
+      @|fr\cel\flashblock\init\ModRecipes.java|595|607|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModRecipes.java|608|617|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|fr\cel\flashblock\init\ModRecipes.java|622|631|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|632|640|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|641|650|testSword|field|fr.cel.flashblock.init.ModItems|testSword
+      @|fr\cel\flashblock\init\ModRecipes.java|673|681|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|682|696|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+      @|fr\cel\flashblock\init\ModRecipes.java|703|708|Items|class|net.minecraft.init.Items
+      @|fr\cel\flashblock\init\ModRecipes.java|709|714|STICK|field|net.minecraft.init.Items|STICK
+      @|fr\cel\flashblock\init\ModRecipes.java|725|737|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModRecipes.java|738|756|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|fr\cel\flashblock\init\ModRecipes.java|761|770|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|771|776|Items|class|net.minecraft.init.Items
+      @|fr\cel\flashblock\init\ModRecipes.java|777|782|ARROW|field|net.minecraft.init.Items|ARROW
+      @|fr\cel\flashblock\init\ModRecipes.java|789|794|Items|class|net.minecraft.init.Items
+      @|fr\cel\flashblock\init\ModRecipes.java|795|800|APPLE|field|net.minecraft.init.Items|APPLE
+      @|fr\cel\flashblock\init\ModRecipes.java|802|807|Items|class|net.minecraft.init.Items
+      @|fr\cel\flashblock\init\ModRecipes.java|808|813|STICK|field|net.minecraft.init.Items|STICK
+      @|fr\cel\flashblock\init\ModRecipes.java|815|821|Blocks|class|net.minecraft.init.Blocks
+      @|fr\cel\flashblock\init\ModRecipes.java|822|833|COBBLESTONE|field|net.minecraft.init.Blocks|COBBLESTONE
+   Method End: registerCraftRecipes()V
+   Method Start: registerFurncaceRecipes()V
+      @|fr\cel\flashblock\init\ModRecipes.java|859|882|registerFurncaceRecipes|method|fr.cel.flashblock.init.ModRecipes|registerFurncaceRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|895|907|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\init\ModRecipes.java|908|919|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|fr\cel\flashblock\init\ModRecipes.java|920|928|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|929|939|test_boots|field|fr.cel.flashblock.init.ModItems|test_boots
+      @|fr\cel\flashblock\init\ModRecipes.java|945|954|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|955|964|ModBlocks|class|fr.cel.flashblock.init.ModBlocks
+      @|fr\cel\flashblock\init\ModRecipes.java|965|974|testBlock|field|fr.cel.flashblock.init.ModBlocks|testBlock
+   Method End: registerFurncaceRecipes()V
+   Method Start: registerBrewingRecipes()V
+      @|fr\cel\flashblock\init\ModRecipes.java|1010|1032|registerBrewingRecipes|method|fr.cel.flashblock.init.ModRecipes|registerBrewingRecipes|()V
+      @|fr\cel\flashblock\init\ModRecipes.java|1045|1066|BrewingRecipeRegistry|class|net.minecraftforge.common.brewing.BrewingRecipeRegistry
+      @|fr\cel\flashblock\init\ModRecipes.java|1067|1076|addRecipe|method|net.minecraftforge.common.brewing.BrewingRecipeRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+      @|fr\cel\flashblock\init\ModRecipes.java|1081|1090|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|1091|1099|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|1100|1109|testSword|field|fr.cel.flashblock.init.ModItems|testSword
+      @|fr\cel\flashblock\init\ModRecipes.java|1116|1125|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|1126|1134|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|1135|1143|redSteak|field|fr.cel.flashblock.init.ModItems|redSteak
+      @|fr\cel\flashblock\init\ModRecipes.java|1153|1162|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\init\ModRecipes.java|1163|1171|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\init\ModRecipes.java|1172|1186|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+   Method End: registerBrewingRecipes()V
+Class End  : fr.cel.flashblock.init.ModRecipes
+endProcessing "fr\cel\flashblock\init\ModRecipes.java"
+
+startProcessing "fr\cel\flashblock\items\ItemMeta.java" md5: 16809c9aa3131cb63c51ac3434e26b1d
+@|fr\cel\flashblock\items\ItemMeta.java|8|31|fr.cel.flashblock.items|package|fr.cel.flashblock.items|(file)
+Class Start: fr.cel.flashblock.items.ItemMeta
+   @|fr\cel\flashblock\items\ItemMeta.java|225|233|ItemMeta|class|fr.cel.flashblock.items.ItemMeta
+   @|fr\cel\flashblock\items\ItemMeta.java|242|246|Item|class|net.minecraft.item.Item
+   @|fr\cel\flashblock\items\ItemMeta.java|274|280|String|class|java.lang.String
+   @|fr\cel\flashblock\items\ItemMeta.java|274|280|String|class|java.lang.String
+   @|fr\cel\flashblock\items\ItemMeta.java|283|291|subTypes|field|fr.cel.flashblock.items.ItemMeta|subTypes|
+   @|fr\cel\flashblock\items\ItemMeta.java|298|304|String|class|java.lang.String
+   Method Start: ItemMeta(Ljava/lang/String;)V
+      @|fr\cel\flashblock\items\ItemMeta.java|351|355|name|param|fr.cel.flashblock.items.ItemMeta|ItemMeta|(Ljava/lang/String;)V|name|0
+      @|fr\cel\flashblock\items\ItemMeta.java|335|343|ItemMeta|method|fr.cel.flashblock.items.ItemMeta|ItemMeta|(Ljava/lang/String;)V
+      @|fr\cel\flashblock\items\ItemMeta.java|344|350|String|class|java.lang.String
+      @|fr\cel\flashblock\items\ItemMeta.java|371|386|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\ItemMeta.java|387|391|name|param|fr.cel.flashblock.items.ItemMeta|ItemMeta|(Ljava/lang/String;)V|name|0
+      @|fr\cel\flashblock\items\ItemMeta.java|407|425|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\ItemMeta.java|426|430|name|param|fr.cel.flashblock.items.ItemMeta|ItemMeta|(Ljava/lang/String;)V|name|0
+      @|fr\cel\flashblock\items\ItemMeta.java|446|460|setHasSubtypes|method|net.minecraft.item.Item|setHasSubtypes|(Z)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\ItemMeta.java|481|495|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\ItemMeta.java|496|506|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\ItemMeta.java|507|510|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: ItemMeta(Ljava/lang/String;)V
+   Method Start: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|fr\cel\flashblock\items\ItemMeta.java|581|586|stack|param|fr.cel.flashblock.items.ItemMeta|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|fr\cel\flashblock\items\ItemMeta.java|525|533|Override|class|java.lang.Override
+      @|fr\cel\flashblock\items\ItemMeta.java|545|551|String|class|java.lang.String
+      @|fr\cel\flashblock\items\ItemMeta.java|552|570|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|fr\cel\flashblock\items\ItemMeta.java|571|580|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\ItemMeta.java|614|619|stack|param|fr.cel.flashblock.items.ItemMeta|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|fr\cel\flashblock\items\ItemMeta.java|620|633|getItemDamage|method|net.minecraft.item.ItemStack|getItemDamage|()I
+      @|fr\cel\flashblock\items\ItemMeta.java|676|684|subTypes|field|fr.cel.flashblock.items.ItemMeta|subTypes
+      Field: Array Length, skipping
+      @|fr\cel\flashblock\items\ItemMeta.java|752|770|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|fr\cel\flashblock\items\ItemMeta.java|771|776|stack|param|fr.cel.flashblock.items.ItemMeta|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|fr\cel\flashblock\items\ItemMeta.java|786|794|subTypes|field|fr.cel.flashblock.items.ItemMeta|subTypes
+   Method End: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+   Method Start: getMetadata(Lnet/minecraft/item/ItemStack;)I
+      @|fr\cel\flashblock\items\ItemMeta.java|864|869|stack|param|fr.cel.flashblock.items.ItemMeta|getMetadata|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|fr\cel\flashblock\items\ItemMeta.java|818|826|Override|class|java.lang.Override
+      @|fr\cel\flashblock\items\ItemMeta.java|842|853|getMetadata|method|net.minecraft.item.Item|getMetadata|(Lnet/minecraft/item/ItemStack;)I
+      @|fr\cel\flashblock\items\ItemMeta.java|854|863|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\ItemMeta.java|896|901|stack|param|fr.cel.flashblock.items.ItemMeta|getMetadata|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|fr\cel\flashblock\items\ItemMeta.java|902|915|getItemDamage|method|net.minecraft.item.ItemStack|getItemDamage|()I
+      @|fr\cel\flashblock\items\ItemMeta.java|958|966|subTypes|field|fr.cel.flashblock.items.ItemMeta|subTypes
+      Field: Array Length, skipping
+   Method End: getMetadata(Lnet/minecraft/item/ItemStack;)I
+   Method Start: getSubItems(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
+      @|fr\cel\flashblock\items\ItemMeta.java|1091|1097|itemIn|param|fr.cel.flashblock.items.ItemMeta|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|itemIn|0
+      @|fr\cel\flashblock\items\ItemMeta.java|1112|1115|tab|param|fr.cel.flashblock.items.ItemMeta|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|tab|1
+      @|fr\cel\flashblock\items\ItemMeta.java|1133|1141|subItems|param|fr.cel.flashblock.items.ItemMeta|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|subItems|2
+      @|fr\cel\flashblock\items\ItemMeta.java|1049|1057|Override|class|java.lang.Override
+      @|fr\cel\flashblock\items\ItemMeta.java|1074|1085|getSubItems|method|net.minecraft.item.Item|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
+      @|fr\cel\flashblock\items\ItemMeta.java|1086|1090|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\items\ItemMeta.java|1099|1111|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|fr\cel\flashblock\items\ItemMeta.java|1117|1121|List|class|java.util.List
+      @|fr\cel\flashblock\items\ItemMeta.java|1122|1131|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\ItemMeta.java|1172|1180|subTypes|field|fr.cel.flashblock.items.ItemMeta|subTypes
+      Field: Array Length, skipping
+      @|fr\cel\flashblock\items\ItemMeta.java|1207|1215|subItems|param|fr.cel.flashblock.items.ItemMeta|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|subItems|2
+      @|fr\cel\flashblock\items\ItemMeta.java|1216|1219|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|fr\cel\flashblock\items\ItemMeta.java|1224|1233|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\ItemMeta.java|1234|1240|itemIn|param|fr.cel.flashblock.items.ItemMeta|getSubItems|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|itemIn|0
+   Method End: getSubItems(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
+Class End  : fr.cel.flashblock.items.ItemMeta
+endProcessing "fr\cel\flashblock\items\ItemMeta.java"
+
+startProcessing "fr\cel\flashblock\items\RedSteak.java" md5: fa0bec47b3ce0aaac039d35342d39493
+@|fr\cel\flashblock\items\RedSteak.java|8|31|fr.cel.flashblock.items|package|fr.cel.flashblock.items|(file)
+Class Start: fr.cel.flashblock.items.RedSteak
+   @|fr\cel\flashblock\items\RedSteak.java|121|129|RedSteak|class|fr.cel.flashblock.items.RedSteak
+   @|fr\cel\flashblock\items\RedSteak.java|138|146|ItemFood|class|net.minecraft.item.ItemFood
+   @|fr\cel\flashblock\items\RedSteak.java|168|174|String|class|java.lang.String
+   @|fr\cel\flashblock\items\RedSteak.java|168|174|String|class|java.lang.String
+   @|fr\cel\flashblock\items\RedSteak.java|175|179|name|field|fr.cel.flashblock.items.RedSteak|name|
+   Method Start: RedSteak()V
+      @|fr\cel\flashblock\items\RedSteak.java|205|213|RedSteak|method|fr.cel.flashblock.items.RedSteak|RedSteak|()V
+      @|fr\cel\flashblock\items\RedSteak.java|261|276|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\RedSteak.java|277|281|name|field|fr.cel.flashblock.items.RedSteak|name
+      @|fr\cel\flashblock\items\RedSteak.java|297|315|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\RedSteak.java|316|320|name|field|fr.cel.flashblock.items.RedSteak|name
+      @|fr\cel\flashblock\items\RedSteak.java|336|350|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\RedSteak.java|351|361|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\RedSteak.java|362|365|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: RedSteak()V
+Class End  : fr.cel.flashblock.items.RedSteak
+endProcessing "fr\cel\flashblock\items\RedSteak.java"
+
+startProcessing "fr\cel\flashblock\items\TestSword.java" md5: 7ef3581116c7cbe3db16e12a1fc59bfe
+@|fr\cel\flashblock\items\TestSword.java|8|31|fr.cel.flashblock.items|package|fr.cel.flashblock.items|(file)
+Class Start: fr.cel.flashblock.items.TestSword
+   @|fr\cel\flashblock\items\TestSword.java|396|405|TestSword|class|fr.cel.flashblock.items.TestSword
+   @|fr\cel\flashblock\items\TestSword.java|414|423|ItemSword|class|net.minecraft.item.ItemSword
+   Method Start: TestSword(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|fr\cel\flashblock\items\TestSword.java|454|458|name|param|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+      @|fr\cel\flashblock\items\TestSword.java|473|481|material|param|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|material|1
+      @|fr\cel\flashblock\items\TestSword.java|437|446|TestSword|method|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|fr\cel\flashblock\items\TestSword.java|447|453|String|class|java.lang.String
+      @|fr\cel\flashblock\items\TestSword.java|460|472|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|fr\cel\flashblock\items\TestSword.java|499|507|material|param|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|material|1
+      @|fr\cel\flashblock\items\TestSword.java|523|538|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\TestSword.java|539|543|name|param|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+      @|fr\cel\flashblock\items\TestSword.java|559|577|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\TestSword.java|578|582|name|param|fr.cel.flashblock.items.TestSword|TestSword|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+      @|fr\cel\flashblock\items\TestSword.java|598|612|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\TestSword.java|613|623|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\TestSword.java|624|627|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: TestSword(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+   Method Start: onItemRightClick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|fr\cel\flashblock\items\TestSword.java|713|718|stack|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|stack|0
+      @|fr\cel\flashblock\items\TestSword.java|726|731|world|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|1
+      @|fr\cel\flashblock\items\TestSword.java|746|752|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|763|767|hand|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|3
+      @|fr\cel\flashblock\items\TestSword.java|642|650|Override|class|java.lang.Override
+      @|fr\cel\flashblock\items\TestSword.java|662|674|ActionResult|class|net.minecraft.util.ActionResult
+      @|fr\cel\flashblock\items\TestSword.java|675|684|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\TestSword.java|686|702|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|fr\cel\flashblock\items\TestSword.java|703|712|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\TestSword.java|720|725|World|class|net.minecraft.world.World
+      @|fr\cel\flashblock\items\TestSword.java|733|745|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|fr\cel\flashblock\items\TestSword.java|754|762|EnumHand|class|net.minecraft.util.EnumHand
+      @|fr\cel\flashblock\items\TestSword.java|810|815|world|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|1
+      @|fr\cel\flashblock\items\TestSword.java|816|824|isRemote|field|net.minecraft.world.World|isRemote
+      @|fr\cel\flashblock\items\TestSword.java|840|845|world|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|1
+      @|fr\cel\flashblock\items\TestSword.java|846|864|spawnEntityInWorld|method|net.minecraft.world.World|spawnEntityInWorld|(Lnet/minecraft/entity/Entity;)Z
+      @|fr\cel\flashblock\items\TestSword.java|869|879|EntityItem|class|net.minecraft.entity.item.EntityItem
+      @|fr\cel\flashblock\items\TestSword.java|880|885|world|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|1
+      @|fr\cel\flashblock\items\TestSword.java|887|893|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|894|898|posX|field|net.minecraft.entity.Entity|posX
+      @|fr\cel\flashblock\items\TestSword.java|900|906|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|907|911|posY|field|net.minecraft.entity.Entity|posY
+      @|fr\cel\flashblock\items\TestSword.java|913|919|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|920|924|posZ|field|net.minecraft.entity.Entity|posZ
+      @|fr\cel\flashblock\items\TestSword.java|930|939|ItemStack|class|net.minecraft.item.ItemStack
+      @|fr\cel\flashblock\items\TestSword.java|940|945|Items|class|net.minecraft.init.Items
+      @|fr\cel\flashblock\items\TestSword.java|946|951|APPLE|field|net.minecraft.init.Items|APPLE
+      @|fr\cel\flashblock\items\TestSword.java|971|976|stack|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|stack|0
+      @|fr\cel\flashblock\items\TestSword.java|977|987|damageItem|method|net.minecraft.item.ItemStack|damageItem|(ILnet/minecraft/entity/EntityLivingBase;)V
+      @|fr\cel\flashblock\items\TestSword.java|997|1003|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|1037|1053|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|fr\cel\flashblock\items\TestSword.java|1054|1059|stack|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|stack|0
+      @|fr\cel\flashblock\items\TestSword.java|1061|1066|world|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|1
+      @|fr\cel\flashblock\items\TestSword.java|1068|1074|player|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|2
+      @|fr\cel\flashblock\items\TestSword.java|1076|1080|hand|param|fr.cel.flashblock.items.TestSword|onItemRightClick|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|3
+   Method End: onItemRightClick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+Class End  : fr.cel.flashblock.items.TestSword
+endProcessing "fr\cel\flashblock\items\TestSword.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestBoots.java" md5: 7d52155572517e72952d4732930a6bfe
+@|fr\cel\flashblock\items\testArmor\TestBoots.java|8|41|fr.cel.flashblock.items.testArmor|package|fr.cel.flashblock.items.testArmor|(file)
+Class Start: fr.cel.flashblock.items.testArmor.TestBoots
+   @|fr\cel\flashblock\items\testArmor\TestBoots.java|184|193|TestBoots|class|fr.cel.flashblock.items.testArmor.TestBoots
+   @|fr\cel\flashblock\items\testArmor\TestBoots.java|202|211|ItemArmor|class|net.minecraft.item.ItemArmor
+   Method Start: TestBoots(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|243|247|name|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|273|283|materialIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|289|302|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|324|339|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|226|235|TestBoots|method|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|236|242|String|class|java.lang.String
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|249|272|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|304|323|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|357|367|materialIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|369|382|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|384|399|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|415|430|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|431|435|name|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|451|469|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|470|474|name|param|fr.cel.flashblock.items.testArmor.TestBoots|TestBoots|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|490|504|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|505|515|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\testArmor\TestBoots.java|516|519|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: TestBoots(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+Class End  : fr.cel.flashblock.items.testArmor.TestBoots
+endProcessing "fr\cel\flashblock\items\testArmor\TestBoots.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestChestplate.java" md5: 95019209324c073e7b3ec3f6a66794ec
+@|fr\cel\flashblock\items\testArmor\TestChestplate.java|8|41|fr.cel.flashblock.items.testArmor|package|fr.cel.flashblock.items.testArmor|(file)
+Class Start: fr.cel.flashblock.items.testArmor.TestChestplate
+   @|fr\cel\flashblock\items\testArmor\TestChestplate.java|184|198|TestChestplate|class|fr.cel.flashblock.items.testArmor.TestChestplate
+   @|fr\cel\flashblock\items\testArmor\TestChestplate.java|207|216|ItemArmor|class|net.minecraft.item.ItemArmor
+   Method Start: TestChestplate(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|253|257|name|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|283|293|materialIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|299|312|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|334|349|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|231|245|TestChestplate|method|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|246|252|String|class|java.lang.String
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|259|282|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|314|333|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|367|377|materialIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|379|392|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|394|409|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|425|440|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|441|445|name|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|461|479|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|480|484|name|param|fr.cel.flashblock.items.testArmor.TestChestplate|TestChestplate|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|500|514|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|515|525|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\testArmor\TestChestplate.java|526|529|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: TestChestplate(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+Class End  : fr.cel.flashblock.items.testArmor.TestChestplate
+endProcessing "fr\cel\flashblock\items\testArmor\TestChestplate.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestHelmet.java" md5: 4641a1a810ef3c9945324f66c78fc9d1
+@|fr\cel\flashblock\items\testArmor\TestHelmet.java|8|41|fr.cel.flashblock.items.testArmor|package|fr.cel.flashblock.items.testArmor|(file)
+Class Start: fr.cel.flashblock.items.testArmor.TestHelmet
+   @|fr\cel\flashblock\items\testArmor\TestHelmet.java|184|194|TestHelmet|class|fr.cel.flashblock.items.testArmor.TestHelmet
+   @|fr\cel\flashblock\items\testArmor\TestHelmet.java|203|212|ItemArmor|class|net.minecraft.item.ItemArmor
+   Method Start: TestHelmet(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|245|249|name|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|265|275|materialIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|281|294|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|316|331|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|227|237|TestHelmet|method|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|238|244|String|class|java.lang.String
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|251|264|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|296|315|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|349|359|materialIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|361|374|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|376|391|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|407|422|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|423|427|name|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|443|461|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|462|466|name|param|fr.cel.flashblock.items.testArmor.TestHelmet|TestHelmet|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|482|496|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|497|507|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\testArmor\TestHelmet.java|508|511|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: TestHelmet(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+Class End  : fr.cel.flashblock.items.testArmor.TestHelmet
+endProcessing "fr\cel\flashblock\items\testArmor\TestHelmet.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestLeggings.java" md5: 1c0fba1cd4e86aee991fb27dd68b1f15
+@|fr\cel\flashblock\items\testArmor\TestLeggings.java|8|41|fr.cel.flashblock.items.testArmor|package|fr.cel.flashblock.items.testArmor|(file)
+Class Start: fr.cel.flashblock.items.testArmor.TestLeggings
+   @|fr\cel\flashblock\items\testArmor\TestLeggings.java|184|196|TestLeggings|class|fr.cel.flashblock.items.testArmor.TestLeggings
+   @|fr\cel\flashblock\items\testArmor\TestLeggings.java|205|214|ItemArmor|class|net.minecraft.item.ItemArmor
+   Method Start: TestLeggings(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|249|253|name|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|279|289|materialIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|295|308|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|330|345|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|229|241|TestLeggings|method|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|242|248|String|class|java.lang.String
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|255|278|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|310|329|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|363|373|materialIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|materialIn|1
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|375|388|renderIndexIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndexIn|2
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|390|405|equipmentSlotIn|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|3
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|421|436|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|437|441|name|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|457|475|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|476|480|name|param|fr.cel.flashblock.items.testArmor.TestLeggings|TestLeggings|(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|name|0
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|496|510|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|511|521|Flashblock|class|fr.cel.flashblock.Flashblock
+      @|fr\cel\flashblock\items\testArmor\TestLeggings.java|522|525|tab|field|fr.cel.flashblock.Flashblock|tab
+   Method End: TestLeggings(Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+Class End  : fr.cel.flashblock.items.testArmor.TestLeggings
+endProcessing "fr\cel\flashblock\items\testArmor\TestLeggings.java"
+
+startProcessing "fr\cel\flashblock\proxy\ClientProxy.java" md5: 14a015cb60a5258af5ad23f1c4115623
+@|fr\cel\flashblock\proxy\ClientProxy.java|8|31|fr.cel.flashblock.proxy|package|fr.cel.flashblock.proxy|(file)
+Class Start: fr.cel.flashblock.proxy.ClientProxy
+   @|fr\cel\flashblock\proxy\ClientProxy.java|47|58|ClientProxy|class|fr.cel.flashblock.proxy.ClientProxy
+   @|fr\cel\flashblock\proxy\ClientProxy.java|67|78|CommonProxy|class|fr.cel.flashblock.proxy.CommonProxy
+   Method Start: preInit()V
+      @|fr\cel\flashblock\proxy\ClientProxy.java|87|95|Override|class|java.lang.Override
+      @|fr\cel\flashblock\proxy\ClientProxy.java|112|119|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+      @|fr\cel\flashblock\proxy\ClientProxy.java|138|145|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+   Method End: preInit()V
+   Method Start: init()V
+      @|fr\cel\flashblock\proxy\ClientProxy.java|161|169|Override|class|java.lang.Override
+      @|fr\cel\flashblock\proxy\ClientProxy.java|186|190|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+      @|fr\cel\flashblock\proxy\ClientProxy.java|209|213|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : fr.cel.flashblock.proxy.ClientProxy
+endProcessing "fr\cel\flashblock\proxy\ClientProxy.java"
+
+startProcessing "fr\cel\flashblock\proxy\CommonProxy.java" md5: 85ba8326a572bacb2538ca12841f3231
+@|fr\cel\flashblock\proxy\CommonProxy.java|8|31|fr.cel.flashblock.proxy|package|fr.cel.flashblock.proxy|(file)
+Class Start: fr.cel.flashblock.proxy.CommonProxy
+   @|fr\cel\flashblock\proxy\CommonProxy.java|420|431|CommonProxy|class|fr.cel.flashblock.proxy.CommonProxy
+   Method Start: preInit()V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|451|458|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|475|483|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\proxy\CommonProxy.java|499|508|ModBlocks|class|fr.cel.flashblock.init.ModBlocks
+      @|fr\cel\flashblock\proxy\CommonProxy.java|524|539|ModEnchantments|class|fr.cel.flashblock.init.ModEnchantments
+   Method End: preInit()V
+   Method Start: init()V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|566|570|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|587|597|ModRecipes|class|fr.cel.flashblock.init.ModRecipes
+      @|fr\cel\flashblock\proxy\CommonProxy.java|609|621|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fr\cel\flashblock\proxy\CommonProxy.java|622|644|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|649|662|OreGeneration|class|fr.cel.flashblock.gen.OreGeneration
+      @|fr\cel\flashblock\proxy\CommonProxy.java|678|692|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|fr\cel\flashblock\proxy\CommonProxy.java|693|702|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|fr\cel\flashblock\proxy\CommonProxy.java|703|711|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|fr\cel\flashblock\proxy\CommonProxy.java|716|731|DeathTouchEvent|class|fr.cel.flashblock.events.DeathTouchEvent
+   Method End: init()V
+Class End  : fr.cel.flashblock.proxy.CommonProxy
+endProcessing "fr\cel\flashblock\proxy\CommonProxy.java"
+
+startProcessing "fr\cel\flashblock\proxy\ServerProxy.java" md5: b0ad57cc361bcce708ecea3fdd5309d4
+@|fr\cel\flashblock\proxy\ServerProxy.java|8|31|fr.cel.flashblock.proxy|package|fr.cel.flashblock.proxy|(file)
+Class Start: fr.cel.flashblock.proxy.ServerProxy
+   @|fr\cel\flashblock\proxy\ServerProxy.java|47|58|ServerProxy|class|fr.cel.flashblock.proxy.ServerProxy
+   @|fr\cel\flashblock\proxy\ServerProxy.java|67|78|CommonProxy|class|fr.cel.flashblock.proxy.CommonProxy
+   Method Start: preInit()V
+      @|fr\cel\flashblock\proxy\ServerProxy.java|87|95|Override|class|java.lang.Override
+      @|fr\cel\flashblock\proxy\ServerProxy.java|112|119|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+      @|fr\cel\flashblock\proxy\ServerProxy.java|138|145|preInit|method|fr.cel.flashblock.proxy.CommonProxy|preInit|()V
+   Method End: preInit()V
+   Method Start: init()V
+      @|fr\cel\flashblock\proxy\ServerProxy.java|161|169|Override|class|java.lang.Override
+      @|fr\cel\flashblock\proxy\ServerProxy.java|186|190|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+      @|fr\cel\flashblock\proxy\ServerProxy.java|209|213|init|method|fr.cel.flashblock.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : fr.cel.flashblock.proxy.ServerProxy
+endProcessing "fr\cel\flashblock\proxy\ServerProxy.java"
+
+startProcessing "fr\cel\flashblock\tab\FlashblockTab.java" md5: 06a76f6416e7e0f1554f5d741ab48656
+@|fr\cel\flashblock\tab\FlashblockTab.java|8|29|fr.cel.flashblock.tab|package|fr.cel.flashblock.tab|(file)
+Class Start: fr.cel.flashblock.tab.FlashblockTab
+   @|fr\cel\flashblock\tab\FlashblockTab.java|165|178|FlashblockTab|class|fr.cel.flashblock.tab.FlashblockTab
+   @|fr\cel\flashblock\tab\FlashblockTab.java|187|199|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: FlashblockTab(ILjava/lang/String;)V
+      @|fr\cel\flashblock\tab\FlashblockTab.java|232|237|index|param|fr.cel.flashblock.tab.FlashblockTab|FlashblockTab|(ILjava/lang/String;)V|index|0
+      @|fr\cel\flashblock\tab\FlashblockTab.java|246|251|label|param|fr.cel.flashblock.tab.FlashblockTab|FlashblockTab|(ILjava/lang/String;)V|label|1
+      @|fr\cel\flashblock\tab\FlashblockTab.java|214|227|FlashblockTab|method|fr.cel.flashblock.tab.FlashblockTab|FlashblockTab|(ILjava/lang/String;)V
+      @|fr\cel\flashblock\tab\FlashblockTab.java|239|245|String|class|java.lang.String
+      @|fr\cel\flashblock\tab\FlashblockTab.java|268|273|index|param|fr.cel.flashblock.tab.FlashblockTab|FlashblockTab|(ILjava/lang/String;)V|index|0
+      @|fr\cel\flashblock\tab\FlashblockTab.java|275|280|label|param|fr.cel.flashblock.tab.FlashblockTab|FlashblockTab|(ILjava/lang/String;)V|label|1
+   Method End: FlashblockTab(ILjava/lang/String;)V
+   Method Start: getTabIconItem()Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\tab\FlashblockTab.java|295|303|Override|class|java.lang.Override
+      @|fr\cel\flashblock\tab\FlashblockTab.java|315|319|Item|class|net.minecraft.item.Item
+      @|fr\cel\flashblock\tab\FlashblockTab.java|320|334|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/Item;
+      @|fr\cel\flashblock\tab\FlashblockTab.java|354|362|ModItems|class|fr.cel.flashblock.init.ModItems
+      @|fr\cel\flashblock\tab\FlashblockTab.java|363|377|flashblockLogo|field|fr.cel.flashblock.init.ModItems|flashblockLogo
+   Method End: getTabIconItem()Lnet/minecraft/item/Item;
+Class End  : fr.cel.flashblock.tab.FlashblockTab
+endProcessing "fr\cel\flashblock\tab\FlashblockTab.java"
+
+startProcessing "fr\cel\flashblock\utils\Materials.java" md5: 6be539de39a01c27c234e8e69b3ae619
+@|fr\cel\flashblock\utils\Materials.java|8|31|fr.cel.flashblock.utils|package|fr.cel.flashblock.utils|(file)
+Class Start: fr.cel.flashblock.utils.Materials
+   @|fr\cel\flashblock\utils\Materials.java|174|183|Materials|class|fr.cel.flashblock.utils.Materials
+   @|fr\cel\flashblock\utils\Materials.java|211|234|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|fr\cel\flashblock\utils\Materials.java|211|234|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|fr\cel\flashblock\utils\Materials.java|235|244|testArmor|field|fr.cel.flashblock.utils.Materials|testArmor|
+   @|fr\cel\flashblock\utils\Materials.java|247|257|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|fr\cel\flashblock\utils\Materials.java|258|274|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|fr\cel\flashblock\utils\Materials.java|336|347|SoundEvents|class|net.minecraft.init.SoundEvents
+   @|fr\cel\flashblock\utils\Materials.java|348|372|ITEM_ARMOR_EQUIP_DIAMOND|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_DIAMOND
+Class End  : fr.cel.flashblock.utils.Materials
+endProcessing "fr\cel\flashblock\utils\Materials.java"
+
+startProcessing "fr\cel\flashblock\utils\References.java" md5: 03951e31a90d26ccea548ab89d8b309f
+@|fr\cel\flashblock\utils\References.java|8|31|fr.cel.flashblock.utils|package|fr.cel.flashblock.utils|(file)
+Class Start: fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\utils\References.java|47|57|References|class|fr.cel.flashblock.utils.References
+   @|fr\cel\flashblock\utils\References.java|85|91|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|85|91|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|92|97|MODID|field|fr.cel.flashblock.utils.References|MODID|
+   @|fr\cel\flashblock\utils\References.java|138|144|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|138|144|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|145|149|NAME|field|fr.cel.flashblock.utils.References|NAME|
+   @|fr\cel\flashblock\utils\References.java|190|196|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|190|196|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|197|204|VERSION|field|fr.cel.flashblock.utils.References|VERSION|
+   @|fr\cel\flashblock\utils\References.java|238|244|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|238|244|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|245|257|CLIENT_PROXY|field|fr.cel.flashblock.utils.References|CLIENT_PROXY|
+   @|fr\cel\flashblock\utils\References.java|323|329|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|323|329|String|class|java.lang.String
+   @|fr\cel\flashblock\utils\References.java|330|342|SERVER_PROXY|field|fr.cel.flashblock.utils.References|SERVER_PROXY|
+Class End  : fr.cel.flashblock.utils.References
+endProcessing "fr\cel\flashblock\utils\References.java"
+

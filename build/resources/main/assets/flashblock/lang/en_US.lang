@@ -1,0 +1,24 @@
+# Items
+item.flashblockLogo.name=Flashblock Logo
+
+item.itemMeta_1.name= ItemMeta 1
+item.itemMeta_2.name= ItemMeta 2
+item.itemMeta_3.name= ItemMeta 3
+
+item.redSteak.name=Red Steak
+
+item.test_helmet.name=Test Helmet
+item.test_chestplate.name=Test Chestplate
+item.test_leggings.name=Test Leggings
+item.test_boots.name=Test Boots
+
+item.test_sword.name=Test Sword
+
+# Blocks
+tile.testBlock.name=Test Block
+
+# ItemGroup / Tab
+itemGroup.flashblock=Flashblock
+
+# Enchantments
+enchantment.death_touch=Death Touch

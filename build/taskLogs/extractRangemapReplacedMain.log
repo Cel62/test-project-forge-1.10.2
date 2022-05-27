@@ -1,0 +1,65 @@
+Symbol range map extraction starting
+Processing 21 files
+startProcessing "fr\cel\flashblock\Flashblock.java" md5: ec078c85ab85a06eb62987559fb5c0a5
+endProcessing "fr\cel\flashblock\Flashblock.java"
+
+startProcessing "fr\cel\flashblock\enchant\EnchantmentDeathTouch.java" md5: 83de987c37c20ee3e98332b0ae4adbc0
+endProcessing "fr\cel\flashblock\enchant\EnchantmentDeathTouch.java"
+
+startProcessing "fr\cel\flashblock\events\DeathTouchEvent.java" md5: 055627df9cbef4a1993736fae8979c90
+endProcessing "fr\cel\flashblock\events\DeathTouchEvent.java"
+
+startProcessing "fr\cel\flashblock\gen\OreGeneration.java" md5: 5296d6c068949bc9f0b75fdfe1616c9e
+endProcessing "fr\cel\flashblock\gen\OreGeneration.java"
+
+startProcessing "fr\cel\flashblock\init\ModBlocks.java" md5: e5846cca6b1d991fbd7d019e620eb688
+endProcessing "fr\cel\flashblock\init\ModBlocks.java"
+
+startProcessing "fr\cel\flashblock\init\ModEnchantments.java" md5: 1b1bfb42d0b661ba82bba22fc10211c6
+endProcessing "fr\cel\flashblock\init\ModEnchantments.java"
+
+startProcessing "fr\cel\flashblock\init\ModItems.java" md5: 41676c62a5901ac0d98490f41d34deb0
+endProcessing "fr\cel\flashblock\init\ModItems.java"
+
+startProcessing "fr\cel\flashblock\init\ModRecipes.java" md5: 7c4e0b32cf2909f8ac833425e42cabdc
+endProcessing "fr\cel\flashblock\init\ModRecipes.java"
+
+startProcessing "fr\cel\flashblock\items\ItemMeta.java" md5: 16809c9aa3131cb63c51ac3434e26b1d
+endProcessing "fr\cel\flashblock\items\ItemMeta.java"
+
+startProcessing "fr\cel\flashblock\items\RedSteak.java" md5: fa0bec47b3ce0aaac039d35342d39493
+endProcessing "fr\cel\flashblock\items\RedSteak.java"
+
+startProcessing "fr\cel\flashblock\items\TestSword.java" md5: 7ef3581116c7cbe3db16e12a1fc59bfe
+endProcessing "fr\cel\flashblock\items\TestSword.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestBoots.java" md5: 7d52155572517e72952d4732930a6bfe
+endProcessing "fr\cel\flashblock\items\testArmor\TestBoots.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestChestplate.java" md5: 95019209324c073e7b3ec3f6a66794ec
+endProcessing "fr\cel\flashblock\items\testArmor\TestChestplate.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestHelmet.java" md5: 4641a1a810ef3c9945324f66c78fc9d1
+endProcessing "fr\cel\flashblock\items\testArmor\TestHelmet.java"
+
+startProcessing "fr\cel\flashblock\items\testArmor\TestLeggings.java" md5: 1c0fba1cd4e86aee991fb27dd68b1f15
+endProcessing "fr\cel\flashblock\items\testArmor\TestLeggings.java"
+
+startProcessing "fr\cel\flashblock\proxy\ClientProxy.java" md5: 14a015cb60a5258af5ad23f1c4115623
+endProcessing "fr\cel\flashblock\proxy\ClientProxy.java"
+
+startProcessing "fr\cel\flashblock\proxy\CommonProxy.java" md5: 85ba8326a572bacb2538ca12841f3231
+endProcessing "fr\cel\flashblock\proxy\CommonProxy.java"
+
+startProcessing "fr\cel\flashblock\proxy\ServerProxy.java" md5: b0ad57cc361bcce708ecea3fdd5309d4
+endProcessing "fr\cel\flashblock\proxy\ServerProxy.java"
+
+startProcessing "fr\cel\flashblock\tab\FlashblockTab.java" md5: 06a76f6416e7e0f1554f5d741ab48656
+endProcessing "fr\cel\flashblock\tab\FlashblockTab.java"
+
+startProcessing "fr\cel\flashblock\utils\Materials.java" md5: 6be539de39a01c27c234e8e69b3ae619
+endProcessing "fr\cel\flashblock\utils\Materials.java"
+
+startProcessing "fr\cel\flashblock\utils\References.java" md5: 03951e31a90d26ccea548ab89d8b309f
+endProcessing "fr\cel\flashblock\utils\References.java"
+
