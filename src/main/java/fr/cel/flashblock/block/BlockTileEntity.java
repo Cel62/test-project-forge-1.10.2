@@ -2,6 +2,7 @@ package fr.cel.flashblock.block;
 
 import fr.cel.flashblock.Flashblock;
 import fr.cel.flashblock.block.tileentity.TileEntityBlock;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
@@ -26,7 +27,7 @@ public class BlockTileEntity extends Block implements ITileEntityProvider {
         this.setUnlocalizedName(name);
 
         this.setHardness(5f);
-        this.setCreativeTab(Flashblock.tab);
+        this.setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
     }
 
     @Override

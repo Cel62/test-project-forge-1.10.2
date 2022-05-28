@@ -3,6 +3,7 @@ package fr.cel.flashblock.item;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
 import fr.cel.flashblock.Flashblock;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -20,7 +21,7 @@ public class ToolDiamondDigger extends ItemTool {
 
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
-        this.setCreativeTab(Flashblock.tab);
+        this.setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
     }
 
     // pour lui dire que c'est une pioche, pelle et hache

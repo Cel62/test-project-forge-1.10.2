@@ -1,37 +1,37 @@
-[17:27:21] [main/INFO]: username: Cel___
-[17:27:21] [main/INFO]: Extra: []
-[17:27:21] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/celcr/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --username, Cel___, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[17:27:21] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:27:21] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:27:21] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:27:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:27:21] [main/INFO]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading
-[17:27:21] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
-[17:27:21] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:27:21] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:27:21] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[17:27:21] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[17:27:21] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:27:21] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:27:21] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:27:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:27:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:27:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:27:21] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[17:27:24] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[17:27:24] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:27:24] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:27:24] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:27:24] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:27:24] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:27:24] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:27:27] [Client thread/INFO]: Setting user: Cel___
-[17:27:31] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:27:31] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:27:33] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:225]: ---- Minecraft Crash Report ----
-// You're mean.
+[23:38:17] [main/INFO]: username: Cel___
+[23:38:17] [main/INFO]: Extra: []
+[23:38:17] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/celcr/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --username, Cel___, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[23:38:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:38:17] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:38:17] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:38:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:38:17] [main/INFO]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading
+[23:38:17] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
+[23:38:17] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[23:38:17] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:38:17] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[23:38:17] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[23:38:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:38:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:38:17] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:38:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:38:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:38:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:38:17] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[23:38:20] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[23:38:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:38:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:38:20] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:38:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:38:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:38:20] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:38:22] [Client thread/INFO]: Setting user: Cel___
+[23:38:29] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:38:29] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:38:30] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:225]: ---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
 
-Time: 27/05/22 17:27
+Time: 28/05/22 23:38
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -46,106 +46,166 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_251, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 477112672 bytes (455 MB) / 750256128 bytes (715 MB) up to 3790077952 bytes (3614 MB)
+	Memory: 473671632 bytes (451 MB) / 745537536 bytes (711 MB) up to 3790077952 bytes (3614 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 512.95' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-[17:27:33] [Client thread/INFO]: MinecraftForge v12.18.3.2511 Initialized
-[17:27:33] [Client thread/INFO]: Replaced 231 ore recipes
-[17:27:33] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[17:27:33] [Client thread/INFO]: Searching D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\run\mods for mods
-[17:27:34] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[17:27:34] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, flashblock] at CLIENT
-[17:27:34] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, flashblock] at SERVER
-[17:27:35] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 139626200 nanos
-[17:27:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Flashblock
-[17:27:35] [Client thread/INFO]: Processing ObjectHolder annotations
-[17:27:35] [Client thread/INFO]: Found 423 ObjectHolder annotations
-[17:27:35] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[17:27:35] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[17:27:35] [Client thread/INFO]: Applying holder lookups
-[17:27:35] [Client thread/INFO]: Holder lookups applied
-[17:27:35] [Client thread/INFO]: Applying holder lookups
-[17:27:35] [Client thread/INFO]: Holder lookups applied
-[17:27:35] [Client thread/INFO]: Applying holder lookups
-[17:27:35] [Client thread/INFO]: Holder lookups applied
-[17:27:35] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[17:27:35] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:27:35] [Client thread/INFO]: Applying holder lookups
-[17:27:35] [Client thread/INFO]: Holder lookups applied
-[17:27:35] [Client thread/INFO]: Injecting itemstacks
-[17:27:35] [Client thread/INFO]: Itemstack injection complete
-[17:27:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:27:40] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[17:27:40] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:27:40] [Thread-8/INFO]: OpenAL initialized.
-[17:27:40] [Sound Library Loader/INFO]: Sound engine started
-[17:27:48] [Client thread/INFO]: Max texture size: 16384
-[17:27:48] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:27:49] [Client thread/INFO]: Injecting itemstacks
-[17:27:49] [Client thread/INFO]: Itemstack injection complete
-[17:27:49] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[17:27:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Flashblock
-[17:27:53] [Client thread/INFO]: SoundSystem shutting down...
-[17:27:53] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:27:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:27:53] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[17:27:53] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:27:54] [Thread-10/INFO]: OpenAL initialized.
-[17:27:54] [Sound Library Loader/INFO]: Sound engine started
-[17:28:00] [Client thread/INFO]: Max texture size: 16384
-[17:28:00] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[17:28:01] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:28:02] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[17:28:04] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[17:28:04] [Server thread/INFO]: Generating keypair
-[17:28:04] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[17:28:04] [Server thread/INFO]: Applying holder lookups
-[17:28:04] [Server thread/INFO]: Holder lookups applied
-[17:28:04] [Server thread/INFO]: Loading dimension 0 (test world) (net.minecraft.server.integrated.IntegratedServer@174e8c9)
-[17:28:05] [Server thread/INFO]: Loading dimension 1 (test world) (net.minecraft.server.integrated.IntegratedServer@174e8c9)
-[17:28:05] [Server thread/INFO]: Loading dimension -1 (test world) (net.minecraft.server.integrated.IntegratedServer@174e8c9)
-[17:28:05] [Server thread/INFO]: Preparing start region for level 0
-[17:28:05] [Server thread/INFO]: Un zombie est apparu !
-[17:28:05] [Server thread/INFO]: Changing view distance to 8, from 10
-[17:28:06] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[17:28:06] [Netty Server IO #1/INFO]: Client protocol version 2
-[17:28:06] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.3.2511,mcp@9.19,flashblock@0.1
-[17:28:06] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[17:28:06] [Server thread/INFO]: [Server thread] Server side modded connection established
-[17:28:06] [Server thread/INFO]: Cel___[local:E:090cf389] logged in with entity id 19 at (1168.6650555246088, 56.0, -174.47449522415639)
-[17:28:06] [Server thread/INFO]: Cel___ joined the game
-[17:28:07] [Server thread/INFO]: Saving and pausing game...
-[17:28:07] [Server thread/INFO]: Saving chunks for level 'test world'/Overworld
-[17:28:07] [Server thread/INFO]: Saving chunks for level 'test world'/Nether
-[17:28:07] [Server thread/INFO]: Saving chunks for level 'test world'/The End
-[17:28:08] [Server thread/INFO]: Saving and pausing game...
-[17:28:08] [Server thread/INFO]: Saving chunks for level 'test world'/Overworld
-[17:28:08] [Server thread/INFO]: Saving chunks for level 'test world'/Nether
-[17:28:08] [Server thread/INFO]: Saving chunks for level 'test world'/The End
-[17:28:22] [Client thread/INFO]: [CHAT] flashblock.RobotPig, Fireball, FireworksRocketEntity, FallingSand
-[17:28:23] [Server thread/INFO]: [Cel___: Object successfully summoned]
-[17:28:23] [Client thread/INFO]: [CHAT] Object successfully summoned
-[17:28:30] [Server thread/INFO]: [Cel___: Object successfully summoned]
-[17:28:30] [Client thread/INFO]: [CHAT] Object successfully summoned
-[17:28:32] [Server thread/INFO]: [Cel___: Object successfully summoned]
-[17:28:32] [Client thread/INFO]: [CHAT] Object successfully summoned
-[17:32:56] [Client thread/INFO]: Stopping!
-[17:32:56] [Client thread/INFO]: SoundSystem shutting down...
-[17:32:56] [Server thread/INFO]: Stopping server
-[17:32:56] [Server thread/INFO]: Saving players
-[17:32:56] [Server thread/INFO]: Saving worlds
-[17:32:56] [Server thread/INFO]: Saving chunks for level 'test world'/Overworld
-[17:32:56] [Server thread/INFO]: Saving chunks for level 'test world'/Nether
-[17:32:56] [Server thread/INFO]: Saving chunks for level 'test world'/The End
-[17:32:56] [Server thread/INFO]: Unloading dimension 0
-[17:32:56] [Server thread/INFO]: Unloading dimension -1
-[17:32:56] [Server thread/INFO]: Unloading dimension 1
-[17:32:56] [Server thread/INFO]: Applying holder lookups
-[17:32:56] [Server thread/INFO]: Holder lookups applied
-[17:32:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:32:56] [Client Shutdown Thread/INFO]: Stopping server
-[17:32:56] [Client Shutdown Thread/INFO]: Saving players
-[17:32:56] [Client Shutdown Thread/INFO]: Saving worlds
+[23:38:30] [Client thread/INFO]: MinecraftForge v12.18.3.2511 Initialized
+[23:38:30] [Client thread/INFO]: Replaced 231 ore recipes
+[23:38:31] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[23:38:31] [Client thread/INFO]: Searching D:\Windows\Documents\GitHub\flashblock-mod\run\mods for mods
+[23:38:32] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[23:38:32] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 189084000 nanos
+[23:38:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, flashblock] at CLIENT
+[23:38:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, flashblock] at SERVER
+[23:38:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Flashblock
+[23:38:34] [Client thread/INFO]: Processing ObjectHolder annotations
+[23:38:34] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[23:38:34] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[23:38:34] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[23:38:34] [Client thread/INFO]: Applying holder lookups
+[23:38:34] [Client thread/INFO]: Holder lookups applied
+[23:38:34] [Client thread/INFO]: Applying holder lookups
+[23:38:34] [Client thread/INFO]: Holder lookups applied
+[23:38:34] [Client thread/INFO]: Applying holder lookups
+[23:38:34] [Client thread/INFO]: Holder lookups applied
+[23:38:34] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[23:38:34] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[23:38:34] [Client thread/INFO]: Applying holder lookups
+[23:38:34] [Client thread/INFO]: Holder lookups applied
+[23:38:34] [Client thread/INFO]: Injecting itemstacks
+[23:38:34] [Client thread/INFO]: Itemstack injection complete
+[23:38:39] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:38:39] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[23:38:39] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:38:39] [Thread-8/INFO]: OpenAL initialized.
+[23:38:39] [Sound Library Loader/INFO]: Sound engine started
+[23:38:47] [Client thread/INFO]: Max texture size: 16384
+[23:38:47] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:38:48] [Client thread/INFO]: Injecting itemstacks
+[23:38:48] [Client thread/INFO]: Itemstack injection complete
+[23:38:48] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[23:38:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Flashblock
+[23:38:52] [Client thread/INFO]: SoundSystem shutting down...
+[23:38:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:38:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:38:52] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[23:38:52] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:38:52] [Thread-10/INFO]: OpenAL initialized.
+[23:38:53] [Sound Library Loader/INFO]: Sound engine started
+[23:39:00] [Client thread/INFO]: Max texture size: 16384
+[23:39:00] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[23:39:01] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:39:02] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:39:05] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[23:39:05] [Server thread/INFO]: Generating keypair
+[23:39:05] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[23:39:05] [Server thread/INFO]: Applying holder lookups
+[23:39:05] [Server thread/INFO]: Holder lookups applied
+[23:39:05] [Server thread/INFO]: Loading dimension 0 (test world) (net.minecraft.server.integrated.IntegratedServer@2a468f00)
+[23:39:06] [Server thread/INFO]: Loading dimension 1 (test world) (net.minecraft.server.integrated.IntegratedServer@2a468f00)
+[23:39:06] [Server thread/INFO]: Loading dimension -1 (test world) (net.minecraft.server.integrated.IntegratedServer@2a468f00)
+[23:39:06] [Server thread/INFO]: Preparing start region for level 0
+[23:39:06] [Server thread/INFO]: Un zombie est apparu !
+[23:39:06] [Server thread/INFO]: Changing view distance to 8, from 10
+[23:39:07] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[23:39:07] [Netty Server IO #1/INFO]: Client protocol version 2
+[23:39:07] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : FML@8.0.99.99,Forge@12.18.3.2511,mcp@9.19,flashblock@0.1
+[23:39:07] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[23:39:07] [Server thread/INFO]: [Server thread] Server side modded connection established
+[23:39:08] [Server thread/INFO]: Cel___[local:E:e5beea63] logged in with entity id 19 at (1170.1808719463818, 56.0, -177.36877982779208)
+[23:39:08] [Server thread/INFO]: Cel___ joined the game
+[23:39:09] [Server thread/INFO]: Saving and pausing game...
+[23:39:09] [Server thread/INFO]: Saving chunks for level 'test world'/Overworld
+[23:39:09] [Server thread/INFO]: Saving chunks for level 'test world'/Nether
+[23:39:09] [Server thread/INFO]: Saving chunks for level 'test world'/The End
+[23:39:37] [Server thread/INFO]: 1
+[23:39:37] [Client thread/INFO]: [CHAT] 1
+[23:39:37] [Server thread/INFO]: 2
+[23:39:37] [Client thread/INFO]: [CHAT] 2
+[23:39:38] [Server thread/INFO]: 3
+[23:39:38] [Client thread/INFO]: [CHAT] 3
+[23:39:38] [Server thread/INFO]: 4
+[23:39:38] [Client thread/INFO]: [CHAT] 4
+[23:39:38] [Server thread/INFO]: 5
+[23:39:38] [Client thread/INFO]: [CHAT] 5
+[23:39:38] [Server thread/INFO]: 6
+[23:39:38] [Client thread/INFO]: [CHAT] 6
+[23:39:39] [Server thread/INFO]: 7
+[23:39:39] [Client thread/INFO]: [CHAT] 7
+[23:39:39] [Server thread/INFO]: 8
+[23:39:39] [Client thread/INFO]: [CHAT] 8
+[23:39:39] [Server thread/INFO]: 9
+[23:39:39] [Client thread/INFO]: [CHAT] 9
+[23:39:39] [Server thread/INFO]: 10
+[23:39:39] [Client thread/INFO]: [CHAT] 10
+[23:39:39] [Server thread/INFO]: 11
+[23:39:39] [Client thread/INFO]: [CHAT] 11
+[23:39:40] [Server thread/INFO]: 12
+[23:39:40] [Client thread/INFO]: [CHAT] 12
+[23:39:40] [Server thread/INFO]: 13
+[23:39:40] [Client thread/INFO]: [CHAT] 13
+[23:39:40] [Server thread/INFO]: 14
+[23:39:40] [Client thread/INFO]: [CHAT] 14
+[23:39:40] [Server thread/INFO]: 15
+[23:39:40] [Client thread/INFO]: [CHAT] 15
+[23:39:40] [Server thread/INFO]: 16
+[23:39:40] [Client thread/INFO]: [CHAT] 16
+[23:39:40] [Server thread/INFO]: 17
+[23:39:40] [Client thread/INFO]: [CHAT] 17
+[23:39:40] [Server thread/INFO]: 18
+[23:39:40] [Client thread/INFO]: [CHAT] 18
+[23:39:40] [Server thread/INFO]: 19
+[23:39:40] [Client thread/INFO]: [CHAT] 19
+[23:39:41] [Server thread/INFO]: 20
+[23:39:41] [Client thread/INFO]: [CHAT] 20
+[23:39:41] [Server thread/INFO]: 21
+[23:39:41] [Client thread/INFO]: [CHAT] 21
+[23:39:41] [Server thread/INFO]: 22
+[23:39:41] [Client thread/INFO]: [CHAT] 22
+[23:39:41] [Server thread/INFO]: 23
+[23:39:41] [Client thread/INFO]: [CHAT] 23
+[23:39:41] [Server thread/INFO]: 24
+[23:39:41] [Client thread/INFO]: [CHAT] 24
+[23:39:41] [Server thread/INFO]: 25
+[23:39:41] [Client thread/INFO]: [CHAT] 25
+[23:39:41] [Server thread/INFO]: 26
+[23:39:41] [Client thread/INFO]: [CHAT] 26
+[23:39:41] [Server thread/INFO]: 27
+[23:39:41] [Client thread/INFO]: [CHAT] 27
+[23:39:42] [Server thread/INFO]: 28
+[23:39:42] [Client thread/INFO]: [CHAT] 28
+[23:39:42] [Server thread/INFO]: 29
+[23:39:42] [Client thread/INFO]: [CHAT] 29
+[23:39:42] [Server thread/INFO]: 30
+[23:39:42] [Client thread/INFO]: [CHAT] 30
+[23:39:42] [Server thread/INFO]: 31
+[23:39:42] [Client thread/INFO]: [CHAT] 31
+[23:39:42] [Server thread/INFO]: 32
+[23:39:42] [Client thread/INFO]: [CHAT] 32
+[23:39:42] [Server thread/INFO]: 33
+[23:39:42] [Client thread/INFO]: [CHAT] 33
+[23:39:42] [Server thread/INFO]: 34
+[23:39:42] [Client thread/INFO]: [CHAT] 34
+[23:39:42] [Server thread/INFO]: 35
+[23:39:42] [Client thread/INFO]: [CHAT] 35
+[23:39:42] [Server thread/INFO]: 36
+[23:39:42] [Client thread/INFO]: [CHAT] 36
+[23:39:42] [Server thread/INFO]: 37
+[23:39:42] [Server thread/INFO]: 38
+[23:39:42] [Client thread/INFO]: [CHAT] 37
+[23:39:42] [Client thread/INFO]: [CHAT] 38
+[23:39:43] [Server thread/INFO]: 39
+[23:39:43] [Client thread/INFO]: [CHAT] 39
+[23:39:43] [Server thread/INFO]: 40
+[23:39:43] [Client thread/INFO]: [CHAT] 40
+[23:39:43] [Server thread/INFO]: 41
+[23:39:43] [Client thread/INFO]: [CHAT] 41
+[23:39:43] [Server thread/INFO]: 42
+[23:39:43] [Client thread/INFO]: [CHAT] 42
+[23:39:43] [Server thread/INFO]: 43
+[23:39:43] [Client thread/INFO]: [CHAT] 43
+[23:39:43] [Server thread/INFO]: 44
+[23:39:43] [Client thread/INFO]: [CHAT] 44

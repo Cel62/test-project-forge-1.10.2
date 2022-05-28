@@ -1,6 +1,7 @@
 package fr.cel.flashblock.init;
 
 import fr.cel.flashblock.Flashblock;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import fr.cel.flashblock.item.ItemMeta;
 import fr.cel.flashblock.item.RedSteak;
 import fr.cel.flashblock.item.TestSword;
@@ -43,10 +44,10 @@ public class ModItems {
 
     // initialisation item
     private void initItems() {
-        flashblockLogo = new Item().setRegistryName("flashblockLogo").setUnlocalizedName("flashblockLogo").setCreativeTab(Flashblock.tab);
+        flashblockLogo = new Item().setRegistryName("flashblockLogo").setUnlocalizedName("flashblockLogo").setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
         itemMeta = new ItemMeta("itemMeta");
         redSteak = new RedSteak();
-        fuelTest = new Item().setRegistryName("fuelItem").setUnlocalizedName("fuelItem").setCreativeTab(Flashblock.tab);
+        fuelTest = new Item().setRegistryName("fuelItem").setUnlocalizedName("fuelItem").setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
 
         test_helmet = new TestHelmet("test_helmet", ArmorMaterials.testMat, 2, EntityEquipmentSlot.HEAD);
         test_chestplate = new TestChestplate("test_chestplate", ArmorMaterials.testMat, 2, EntityEquipmentSlot.CHEST);

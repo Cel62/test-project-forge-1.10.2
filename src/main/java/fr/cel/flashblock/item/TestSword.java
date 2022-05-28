@@ -1,6 +1,7 @@
 package fr.cel.flashblock.item;
 
 import fr.cel.flashblock.Flashblock;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,7 +19,7 @@ public class TestSword extends ItemSword {
         super(material);
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
-        this.setCreativeTab(Flashblock.tab);
+        this.setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
     }
 
     // detect si on fait click droit -> give 5 apples et enlève de la durabilité à l'item

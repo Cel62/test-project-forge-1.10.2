@@ -1,6 +1,7 @@
 package fr.cel.flashblock.item;
 
 import fr.cel.flashblock.Flashblock;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -15,7 +16,7 @@ public class ItemMeta extends Item {
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
         this.setHasSubtypes(true);
-        this.setCreativeTab(Flashblock.tab);
+        this.setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
     }
 
     // méthode pour pas merder le nom

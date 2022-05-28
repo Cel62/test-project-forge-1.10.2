@@ -2,6 +2,7 @@ package fr.cel.flashblock.init;
 
 import fr.cel.flashblock.Flashblock;
 import fr.cel.flashblock.block.BlockTileEntity;
+import fr.cel.flashblock.creativetab.FlashblockCreativeTabs;
 import fr.cel.flashblock.util.References;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -37,7 +38,7 @@ public class ModBlocks {
 
     // initialisation block
     private void initBlocks() {
-        testBlock = new Block(Material.ROCK).setHardness(2.0F).setResistance(10.0F).setRegistryName("testBlock").setUnlocalizedName("testBlock").setCreativeTab(Flashblock.tab);
+        testBlock = new Block(Material.ROCK).setHardness(2.0F).setResistance(10.0F).setRegistryName("testBlock").setUnlocalizedName("testBlock").setCreativeTab(FlashblockCreativeTabs.FLASHBLOCK);
     }
 
     // add item
