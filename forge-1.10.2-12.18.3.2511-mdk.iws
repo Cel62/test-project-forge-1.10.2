@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc361128-9de7-4cc0-ba68-0c063cd5eaa6" name="Changes" comment="Commit #1&#10;&#10;Modification de la Creative Tabs">
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-05-27-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-05-27-7.log.gz" afterDir="false" />
-    </list>
+    <list default="true" id="dc361128-9de7-4cc0-ba68-0c063cd5eaa6" name="Changes" comment="Commit #1&#10;&#10;Modification de la Creative Tabs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,17 +84,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Windows/Documents/GitHub/flashblock-mod/forge-1.10.2-12.18.3.2511-mdk.ipr&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.34367815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Windows/Téléchargement/CYG",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.34367815",
+    "settings.editor.selected.configurable": "discord-project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fr.cel.flashblock.handlers" />
